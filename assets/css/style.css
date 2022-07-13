@@ -1,0 +1,620 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@font-face {
+    font-family: allround-Font;
+    src: url(../assets/fonts/All-Round-Gothic-Bold.ttf);
+  }
+
+/* body css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Hind Vadodara", sans-serif;
+    color: white;
+    background-color: #000000;
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  ol,
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: allround-Font !important;
+  }
+  button:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+  textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+  .main-color {
+    color: #d8aaf8;
+  }
+  button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .btn-outline-success:focus {
+    box-shadow: none !important;
+  }
+  .btn-outline-primary:focus {
+    box-shadow: none !important;
+  }
+  .btn-outline-danger:focus {
+    box-shadow: none !important;
+  }
+ section{
+    height: 100vh;
+ }
+/* body css end */
+
+
+/* hero section css start */
+.main-heading {
+    font-size: 93px;
+    line-height: 80px;
+}
+.sub-heading {
+    font-size: 23px;
+    font-weight: 600;
+}
+.hero-p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.hero-btn {
+    font-family: allround-Font !important;
+    color: white;
+    font-size: 14px;
+    border-color: #d8aaf8;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 6px 22px;
+}
+.hero-btn:hover {
+    color: white;
+    border-color: #d8aaf8;
+    background-color: #d8aaf8;
+}
+/* hero section css end */
+
+/* lof plateform section 2 css start */
+.slider-div h1 {
+    font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.slider-div p {
+ 
+   font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    padding-right: 170px;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-right: 150px !important;
+}
+
+  
+/* lof plateform section 2 css end */
+/* tokenomics section css  start*/
+.fillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    border-left-color: #d8aaf8;
+    border-right-color: #d8aaf8;
+    background: linear-gradient(to right, #d8aaf8 0%, #d8aaf8 100%);
+}
+.fillbar:after {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    display: block;
+  
+   
+    height: 8px;
+    width: 40%;
+    background: #1e222c;
+}
+
+  
+/* feature */
+#faqs .qa-pairs dl {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+}
+#faqs .qa-pairs dl > * {
+  font-family:"Hind Vadodara", sans-serif !important ;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#faqs .qa-pairs dt {
+  background: #121016;
+  order: 1;
+  z-index: 1;
+  line-height: 1.4;
+  padding: 22px 24px 12px 24px;
+  font-family: allround-Font !important;;
+  font-size: 36px;
+}
+#faqs .qa-pairs .faq-toggle {
+  /*background: url(http://rephresh.colangelo-sm.com/img/plus-minus.png);*/
+  /*background-position: left top;*/
+  margin-right: 20px;
+  margin-top: 13px;
+  position: absolute;
+  line-height: 1em;
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  display: table;
+  cursor: pointer;
+}
+#faqs .qa-pairs .faq-toggle .circle {
+  top: 10px;
+  padding: 16px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #9c8dc3;
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s;
+}
+#faqs .qa-pairs .faq-toggle .minus, #faqs .qa-pairs .faq-toggle .plus {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #9c8dc3;
+  left: 44%;
+  margin-left: -5px;
+  top: 50%;
+  margin-top: -1px;
+}
+#faqs .qa-pairs .faq-toggle .plus {
+  position: absolute;
+ /* width: 10px; */
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: width 0.5s;
+}
+#faqs .qa-pairs dd {
+  padding: 22px 24px 34px 24px;
+  margin-top: -10px;
+  order: 2;
+  background: #121016;
+}
+#faqs .qa-pairs dl.active .faq-toggle {
+  /*background-position: right top;*/
+}
+#faqs .qa-pairs dl.active .faq-toggle .circle {
+  transform: rotate(720deg);
+  transition: transform 0.5s;
+}
+#faqs .qa-pairs dl.active .faq-toggle .plus {
+  width: 0px;
+  transition: width transform 0.5s;
+}
+@media (max-width: 767px) {
+  #faqs .qa-pairs dl {
+    font-size: 1.2em;
+  }
+}
+ /* my own css */
+.token-heading{
+  font-family: allround-Font !important;
+  font-size: 180px;
+  
+}
+.token-heading-2{
+  font-family: allround-Font !important;
+
+  
+}
+.token-heading-1{
+  font-family: allround-Font !important;
+font-size: 90px;
+  
+}
+.token-sub{
+  font-family: "Hind Vadodara", sans-serif !important;
+  color: #D8AAF8;
+  font-weight: bold;
+  font-size: 24px;
+}
+.token-body{
+  font-family: "Hind Vadodara", sans-serif !important;
+font-size: 18px;
+line-height: 36px;
+}
+.token-span{
+  color: #D8AAF8; margin-left: 60px;
+}
+.token-box{
+  background-color: #121016;
+  padding: 20px;
+ 
+}
+.token-bar-content{
+  padding: 20px;
+}
+.token-points{
+  padding: 80px;
+}
+
+.token-points>ul>li{
+font-size: 27px;
+padding: 20px;
+list-style-type: none;
+}
+.bullet-1::before {
+  content: "\2022";
+  color: #5146D1;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-2::before {
+  content: "\2022";
+  color: #089EF4;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-3::before {
+  content: "\2022";
+  color: #C056A6;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-4::before {
+  content: "\2022";
+  color: #089FF5;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-5::before {
+  content: "\2022";
+  color: #8300DE;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-6::before {
+  content: "\2022";
+  color: #5B50D3;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-7::before {
+  content: "\2022";
+  color: #C96DB3;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+/* Tokenomics section css end  */
+
+/* partner section css start */
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  
+  #icons {
+    display: none;
+  }
+  
+  
+  .nav-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 12rem;
+    padding: 0 4rem;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .nav-wrapper .nav-arrows {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .nav-wrapper .nav-up {
+    opacity: 0;
+  }
+  .nav-wrapper .nav-up, .nav-wrapper .nav-down {
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  .nav-wrapper .nav-up svg, .nav-wrapper .nav-down svg {
+    fill: #666666;
+    width: 100%;
+    max-height: 100%;
+  }
+  .nav-wrapper .nav-up svg:hover, .nav-wrapper .nav-down svg:hover {
+    fill: black;
+  }
+  .nav-wrapper .nav-up {
+    transform: rotate(180deg);
+  }
+  .nav-wrapper .nav-line {
+    width: 100%;
+    height: 0.1rem;
+    background: black;
+    margin: 1rem 0;
+    background: #666666;
+  }
+  
+  .slider-content {
+    position: relative;
+    /* max-width: 112rem;
+    min-width: 480px; */
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+  }
+  .slider-content .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .slider-content .slide:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .slider-content .slide:first-child .txt-wrapper span.copy {
+    opacity: 1;
+  }
+  .slider-content .slide:nth-child(odd) .img {
+    margin-left: 50%;
+    transform: translateY(-100%);
+  }
+  .slider-content .slide:nth-child(odd) .txt {
+    transform: translateY(100%);
+  }
+  .slider-content .slide:nth-child(even) .img {
+    transform: translateY(100%);
+  }
+  .slider-content .slide:nth-child(even) .txt {
+    margin-left: 50%;
+    transform: translateY(-100%);
+  }
+  .slider-content .slide.active {
+    position: absolute;
+    z-index: 5;
+  }
+  .slider-content .slide.active .img, .slider-content .slide.active .txt {
+    transform: translateY(0);
+  }
+  
+  .slider-container {
+    position: relative;
+    height: 65rem;
+    overflow: hidden;
+  }
+  .slider-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .slider-container .slide-content {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    transition-delay: 0.15s;
+  }
+  .slider-container .slide-content.txt {
+    display: table;
+    padding: 8rem 14rem;
+    background: white;
+  }
+  .slider-container .slide-content .txt-wrapper {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .slider-container .slide-content .txt-wrapper span.copy {
+    position: relative;
+    text-transform: uppercase;
+    width: 2rem;
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 4rem;
+    font-weight: 500;
+    opacity: 0;
+  }
+  .slider-container .slide-content .txt-wrapper h2 {
+    margin: 0;
+    font-size: 4.3rem;
+    margin-bottom: 4rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+  .slider-container .slide-content .txt-wrapper h2 span {
+    display: block;
+  }
+  .slider-container .slide-content .txt-wrapper h3 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+    font-weight: 400;
+  }
+  .slider-container .slide-content .txt-wrapper h3 span {
+    color: #ccc;
+  }
+  .slider-container .slide-content .txt-wrapper a {
+    text-decoration: none;
+    color: #AEACAB;
+  }
+  .slider-container .slide-content .txt-wrapper button {
+    position: relative;
+    padding: 1rem 3.5rem;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 3rem;
+    background: #d02e2e;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .slider-container .slide-content .txt-wrapper .phone {
+    display: block;
+    color: black;
+    font-size: 1.9rem;
+  }
+  .slider-container .slide-content .txt-wrapper .subtitle {
+    display: block;
+    text-transform: uppercase;
+    color: #AEACAB;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .slider-container .slide-content .txt-wrapper p.excerpt {
+    margin: 0;
+    color: #AEACAB;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .slider-container .slide-content .txt-wrapper span.view-all {
+    color: #AEACAB;
+  }
+  .slider-container .slide-content .txt-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1.5rem;
+  }
+  .slider-container .slide-content .txt-wrapper ul li {
+    position: relative;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+  .slider-container .slide-content .txt-wrapper ul li:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .slider-container .slide-content .txt-wrapper .date-wrapper {
+    width: 20%;
+    float: left;
+    color: #AEACAB;
+    text-align: left;
+  }
+  .slider-container .slide-content .txt-wrapper .date-wrapper .date {
+    font-size: 1.7rem;
+  }
+  .slider-container .slide-content .txt-wrapper .date-wrapper .month {
+    font-size: 1rem;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper {
+    width: 80%;
+    float: left;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-title {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-title a {
+    display: block;
+    color: black;
+    cursor: pointer;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-title a:hover {
+    text-decoration: underline;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-info {
+    display: block;
+    color: #AEACAB;
+    font-size: 1rem;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-info:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-info ul {
+    margin: 0;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-info li {
+    float: left;
+    margin: 0 0.5rem;
+  }
+  .slider-container .slide-content .txt-wrapper .post-wrapper .post-info li:first-child {
+    margin-left: 0;
+  }
+  .slider-container .slide-content img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+/* partner section css end */
