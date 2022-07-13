@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
 @font-face {
   font-family: allround-Font;
-  src: url(../assets/fonts/All-Round-Gothic-Bold.ttf);
+  src: url(../fonts/All-Round-Gothic-Bold.ttf);
 }
 
 /* body css start */
@@ -63,9 +63,7 @@ button:focus {
 .btn-outline-danger:focus {
   box-shadow: none !important;
 }
-section {
-  height: 100vh;
-}
+
 /* body css end */
 /* navbar css start  */
 .navbar-inverse {
@@ -119,34 +117,86 @@ section {
 /* navbar css End */
 
 /* hero section css start */
+.hero-heading-padding{
+  padding: 190px 0px 10px 90px;
+}
+.hero-paragrah{
+ 
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  width: 126%;
+}
 .main-heading {
-  font-size: 93px;
-  line-height: 80px;
+  font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 120px;
+ 
 }
 .sub-heading {
-  font-size: 23px;
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  width: 140%;
 }
-.hero-p {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 26px;
-}
+
 .hero-btn {
+  background-color: black;
   font-family: allround-Font !important;
   color: white;
   font-size: 14px;
   border-color: #d8aaf8;
   border-radius: 8px;
   border-width: 2px;
-  padding: 6px 22px;
+  padding: 12px 25px;
+  margin: 10px 10px 10px 10px;
 }
 .hero-btn:hover {
   color: white;
-  border-color: #d8aaf8;
+  border-color: #d8aaf8!important;
   background-color: #d8aaf8;
 }
 /* hero section css end */
+/* lof section 1 start */
+.main-heading-lof-section{
+  font-family: allround-Font !important;
+  font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+}
+.lof-section-paragraph{
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+margin-top: 30px;
+}
+/* lof section 1 end  */
+
+/* lof plateform start */
+.lof-plateform-heading{
+  font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+}
+.lof-plateform-paragraph{
+  font-family: "Hind Vadodara", sans-serif!important;
+  margin-top: 30px;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+}
+/* lof plateform end */
 
 /* lof plateform section 2 css start */
 .slider-div h1 {
@@ -418,6 +468,11 @@ section {
   margin-left: -1em;
 }
 /* Tokenomics section css end  */
+/* dashboared section start */
+.dashborad-heading-padding{
+  padding: 190px 0px 10px 90px;
+}
+/* dashbored section end */
 /* roadmap css start  */
 a {
   color: #7b9d6f;
