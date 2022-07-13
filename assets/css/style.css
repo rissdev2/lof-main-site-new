@@ -1113,3 +1113,85 @@ Main Components
   object-fit: cover;
 }
 /* partner section css end */
+/* Footer css Start */
+.fotter-div {
+  background-color: #121016;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-list li {
+  display: inline;
+  list-style: none;
+}
+.footer-list .footer-li .footer-links {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  padding: 8px;
+  font-weight: 500;
+}
+.copy-right {
+  font-weight: 500;
+}
+
+/* Media querys starts  */
+@media only screen and (max-width: 600px) {
+  .footer-list .footer-li .footer-links {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .copy-right {
+    font-size: 10px;
+  }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .footer-list .footer-li .footer-links {
+      color: white;
+      font-family: "Hind Vadodara", sans-serif;
+      padding: 8px;
+      font-weight: 500;
+    }
+  }
+/* Media querys end  */
+/* Footer css end */
+
+/* sider-bar css start */
+.social-div {
+  position: fixed;
+  right: 50px;
+  top: 30%;
+  z-index: 999;
+  background: linear-gradient(
+    113.32deg,
+    rgba(248, 237, 255, 0.15) 0%,
+    rgba(248, 237, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.social-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, #f8edff 0%, rgba(248, 237, 255, 0) 81.38%)
+    border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  /* padding: 30px; */
+}
+.social-div ul {
+  list-style: none;
+}
+.social-div ul li{
+  margin: 20px 10px;
+}
+
+/* sider-bar css End */
+
