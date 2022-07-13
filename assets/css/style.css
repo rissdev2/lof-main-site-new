@@ -63,9 +63,7 @@
   .btn-outline-danger:focus {
     box-shadow: none !important;
   }
- section{
-    height: 100vh;
- }
+
 /* body css end */
 
 
@@ -84,6 +82,7 @@
     line-height: 26px;
 }
 .hero-btn {
+    background-color: #000000;
     font-family: allround-Font !important;
     color: white;
     font-size: 14px;
