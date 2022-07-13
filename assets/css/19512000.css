@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1951px) and (min-width: 2000px) {
+    .section-special{
+      height: 1080px!important;
+    }
+    .img-fluid1{
+      width: 1268px!important;
+        height: 918px !important;
+    }
+    .img-fluid2{
+      width: 1126px!important;
+        height: 693px !important;
+    }
+    .lof-section-paragraph-top{
+  
+      margin-top: 16px!important;
+      
+      }
+      .lof-section-paragraph{
+        font-family: "Hind Vadodara", sans-serif!important;
+        font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+      margin-top: 30px;
+      width: 98%;
+      }
+      .hero-margin{
+        margin-top: 50px;
+      }
+      .lof-platfrom-heading-margin{
+        margin-top: 14px!important;
+      }
+      .lof-plateform-heading-padding{
+        padding: 165px 0px 10px 165px!important;
+      }
+      .lof-plateform-heading{
+        font-style: normal;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 96px;
+      width: 167%;
+      }
+      .img-fluid3{
+        width: 1480px!important;
+        height: 964px!important;
+      }
+      .lof-plateform-paragraph{
+        font-family: "Hind Vadodara", sans-serif!important;
+        margin-top: 30px;
+        font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+      width: 185%;
+      }
+      
+  }

@@ -145,14 +145,7 @@ font-size: 120px;
 line-height: 120px;
  
 }
-.sub-heading {
-  font-family: "Hind Vadodara", sans-serif!important;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 40px;
-  width: 140%;
-}
+
 
 .hero-btn {
   background-color: black;
@@ -182,9 +175,7 @@ line-height: 60px;
 
 /* lof section 1 end  */
 
-/* lof plateform start */
 
-/* lof plateform end */
 
 /* lof plateform section 2 css start */
 .slider-div h1 {

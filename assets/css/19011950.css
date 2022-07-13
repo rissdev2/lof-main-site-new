@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: allround-Font;
+  src: url(../fonts/All-Round-Gothic-Bold.ttf);
+}
+@media only screen and (max-width: 1950px) and (min-width: 1901px) {
+    .section-special{
+      height: 1080px!important;
+    }
+    .hero-img{
+      width: 1268px!important;
+        height: 918px !important;
+    }
+    .whylof-img{
+      width: 1126px!important;
+        height: 693px !important;
+    }
+    .lof-section-paragraph-top{
+  
+      margin-top: 16px!important;
+      
+      }
+      .lof-section-paragraph{
+        font-family: "Hind Vadodara", sans-serif!important;
+        font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+      margin-top: 30px;
+      width: 98%;
+      }
+      .hero-margin{
+        margin-top: 50px;
+      }
+      .lof-platfrom-heading-margin{
+        margin-top: 14px!important;
+      }
+      .lof-plateform-heading-padding{
+        padding: 165px 0px 10px 165px!important;
+      }
+      .lof-plateform-heading{
+        font-style: normal;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 96px;
+      width: 167%;
+      }
+      .lofplateform-img{
+        width: 1380px!important;
+        height: 864px!important;
+      }
+      .lof-plateform-paragraph{
+        font-family: "Hind Vadodara", sans-serif!important;
+        margin-top: 30px;
+        font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+      width: 185%;
+      }
+      .sub-heading {
+        font-family: "Hind Vadodara", sans-serif!important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        width: 150%;
+      }
+      .lofplatform-img-2{
+        width: 1090px!important;
+        height: 724!important;
+      }
+      .feature-logo{
+        height: 50px!important; width: 50px!important; margin-right: 12px!important; font-family: "Hind Vadodara", sans-serif!important;
+      }
+      .feature-section-p{
+        font-size: 26px!important;
+        margin-top: 17px!important;
+        font-family: "Hind Vadodara", sans-serif!important;
+        color: white!important;
+        
+      }
+      .feature-margin{
+        margin-top: 70px!important;
+      }
+      
+  }
