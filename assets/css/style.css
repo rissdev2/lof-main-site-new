@@ -469,9 +469,23 @@ line-height: 34px;
 }
 /* Tokenomics section css end  */
 /* dashboared section start */
-.dashborad-heading-padding{
-  padding: 190px 0px 10px 90px;
+
+.dash-heading{
+  font-family: allround-Font !important;
+  font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
 }
+.dash-paragraph{
+  margin-top: 30px;
+  font-family: "Hind Vadodara", sans-serif;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 35px;
+}
+
 /* dashbored section end */
 /* roadmap css start  */
 a {
@@ -881,6 +895,126 @@ Main Components
 }
 
 /* roadmap css  End*/
+/* White paper start */
+.whitepaper-heading{
+  font-family: allround-Font !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110px;
+}
+.whitepaper-paragrph{
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/* white paper end */
+/* team section start */
+.team-heading{
+  font-family: allround-Font !important;
+  font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+}
+.team-paragraph{
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+}
+
+/* team section end */
+
+/* mech store start */
+.mench-paragraph{
+  font-family: "Hind Vadodara", sans-serif!important;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+margin-top: 30px;
+}
+.mench-heading{
+  font-family: allround-Font !important;
+  font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 110px;
+
+}
+/* mench store end */
+/* contact start */
+.contct-txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 250px;
+}
+.contct-txt p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+}
+.contct-bg {
+  background-image: url(../img/contct.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.field {
+  width: 497px;
+  height: 52px;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 12px;
+  border-radius: 5px;
+}
+.field:focus {
+  border: none !important;
+  outline: none !important;
+}
+.text-area {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 70px;
+  width: 95%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.text-area:focus {
+  border: none !important;
+  outline: none !important;
+}
+.contact-btn {
+  font-family: allround-Font !important;
+  color: white;
+  font-size: 14px;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 42px;
+  background-color: transparent;
+}
+.contact-btn:hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
+}
+
+
+/* contact end */
 /* partner section css start */
 
 *,
@@ -946,7 +1080,7 @@ Main Components
   background: #fff;
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 0 0 35px 20px rgba(79, 69, 66, 0.2);
+  
 }
 .slider-content .slide {
   position: absolute;
@@ -1047,22 +1181,7 @@ Main Components
   text-decoration: none;
   color: #aeacab;
 }
-.slider-container .slide-content .txt-wrapper button {
-  position: relative;
-  padding: 1rem 3.5rem;
-  color: white;
-  text-align: center;
-  display: block;
-  border-radius: 3rem;
-  background: #d02e2e;
-  text-transform: uppercase;
-  border: none;
-  font-size: 1rem;
-  margin-top: 3rem;
-  font-weight: bold;
-  outline: none;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
-}
+
 .slider-container .slide-content .txt-wrapper .phone {
   display: block;
   color: black;
