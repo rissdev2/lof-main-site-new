@@ -618,3 +618,45 @@ list-style-type: none;
        object-fit: cover;
   }
 /* partner section css end */
+/* Footer css Start */
+.fotter-div {
+  background-color: #121016;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-list li {
+  display: inline;
+  list-style: none;
+}
+.footer-list .footer-li .footer-links {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  padding: 8px;
+  font-weight: 500;
+}
+.copy-right {
+  font-weight: 500;
+}
+
+/* Media querys starts  */
+@media only screen and (max-width: 600px) {
+  .footer-list .footer-li .footer-links {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .copy-right {
+    font-size: 10px;
+  }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .footer-list .footer-li .footer-links {
+      color: white;
+      font-family: "Hind Vadodara", sans-serif;
+      padding: 8px;
+      font-weight: 500;
+    }
+  }
+/* Media querys end  */
+/* Footer css end */
