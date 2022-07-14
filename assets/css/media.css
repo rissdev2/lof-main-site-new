@@ -107,6 +107,62 @@ height: 1620px !important;
 .social-div{
   right: 10px !important;
 }
+.slide-head{
+  font-size: 20px !important;
+}
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .hero-heading-padding {
+      padding: 81px 0px 10px 31px !important;
+    }      
+    .hero-paragrah{
+      width: 100% !important;
+    }
+    .hero-img{
+      width: 737px;
+    }
+    .lof-section-margin{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .whylof-img{
+      width: 730px;
+    }
+    .lofplateform-img{
+      width: 730px;
+    }
+    .lof-platform2-mbl{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .lofplatform-img-2{
+      width: 730px;
+    }
+    .token-heading{
+      font-size: 100px !important;
+    }
+    .img-fluid1{
+      width: 730px !important;
+    }
+    .team-sec{
+      background: url() !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+     height: 1620px !important;
+     }
+     .team-img{
+      display: block !important;
+    }
+    .field{
+      margin-bottom: 20px;
+    }
+    .text-area{
+      width: 68% !important;
+    }
 }
 
 
@@ -483,6 +539,7 @@ height: 1620px !important;
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
 
 }
 
