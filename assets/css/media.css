@@ -1,3 +1,119 @@
+@media only screen and (max-width: 600px) {
+  .hero-heading-padding {
+    padding: 70px 0px 10px 15px !important;
+}
+.main-heading{
+  font-size: 57px !important;
+}
+.hero-paragrah{
+  width: 96% !important;
+  font-size: 19px !important;
+}
+.hero-img{
+  width: 330px!important;
+    height: 239px !important;
+}
+.whylof-img{
+  width: 330px!important;
+    height: 203px !important;
+}
+.lof-section-margin{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.lofplateform-img{
+  width: 330px!important;
+  height: 215px!important;
+}
+.lofplatform-img-2{
+  width: 330px!important;
+  height: 220px!important;
+}
+.lof-platform2-mbl{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.token-padding{
+  padding: 0px 16px 0px 16px !important;
+
+}
+.token-span {
+  margin-left: 0px !important;
+}
+.token-heading {
+  font-size: 58px !important;
+}
+.token-sub {
+  font-size: 20px !important;
+}
+.token-box{
+  margin-bottom: 20px !important;
+}
+.token-heading-2{
+  font-size: 27px !important;
+}
+.token-points {
+  padding: 16px !important;
+}
+.token-heading-1{
+  font-size: 75px !important;
+}
+#faqs .qa-pairs dt{
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  padding: 22px 54px 12px 24px !important;
+}
+.img-fluid1{
+  width: 330px!important;
+    height: 234px !important;
+}
+.roadmap-padding{
+  padding: 0px 0px 0px 0px !important;
+}
+.whitepaper-heading{
+  font-size: 57px !important;
+  line-height: 70px !important;
+}
+.team-sec{
+ background: url() !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+height: 1620px !important;
+}
+.team-heading{
+  font-size: 55px !important;
+}
+.contct-txt h1 {
+  margin-top: 50px !important;
+  font-size: 47px !important;
+}
+.field{
+  width: 335px !important;
+  margin-bottom: 10px !important;
+}
+.section-special{
+  padding: 0px 0px 0px 0px !important;
+}
+.slider-container .slide-content.txt{
+  padding: 8rem 1rem !important;
+}
+.merch-mbl{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.team-img{
+  display: block !important;
+}
+.social-div{
+  right: 10px !important;
+}
+}
+
+
+
+
+
+
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
