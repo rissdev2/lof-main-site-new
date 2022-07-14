@@ -86,5 +86,46 @@
       .feature-margin{
         margin-top: 70px!important;
       }
+
+      .dashbored-img{
+        width: 1156px;
+  height: 809px;
+      }
+      .dashbored-padding{
+        padding: 200px 0px 0px 70px ;
+      }
+
+
+
+      .dash-heading{
+        font-family: allround-Font !important;
+        font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 72px;
+      }
+
+
+
+      .dash-pad{
+        padding-left: 68px;
+        padding-top: 35px;
+        }
+        .dash-body-mar{
+          margin-top: 12px;
+          font-family: "Hind Vadodara", sans-serif;
+          font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        width: 98%;
+        }
+        .dash-button-mar{
+          margin-top: 28px;
+        }
+
+
+
+
       
   }
