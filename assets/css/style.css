@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
 @font-face {
   font-family: allround-Font;
   src: url(../fonts/All-Round-Gothic-Bold.ttf);
 }
 
-.slider-wrapper{
-  height: 1080px!important;
+.slider-wrapper {
+  height: 1080px !important;
 }
 
 /* body css start */
 
 * {
-  margin: 0 ;
-  padding: 0 ;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -44,6 +45,9 @@ button:focus {
   outline: none;
   box-shadow: none !important;
 }
+.btn:focus {
+  color: white !important;
+}
 input:focus {
   outline: none;
   box-shadow: none !important;
@@ -68,24 +72,25 @@ button:focus {
 .btn-outline-danger:focus {
   box-shadow: none !important;
 }
-.all-round{
+.all-round {
   font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 28px;
-  font-family: allround-Font !important;;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  font-family: allround-Font !important;
 }
 
 /* body css end */
 /* navbar css start  */
 
-.navbar-li>li{
+.navbar-li > li {
   font-size: 18px;
   font-weight: 600;
   margin-left: 30px;
   padding-top: 18px;
 }
-.navbar-inverse {opacity: 80%;
+.navbar-inverse {
+  opacity: 80%;
   background: black !important;
   border: none !important;
 }
@@ -137,12 +142,11 @@ line-height: 28px;
 
 /* hero section css start */
 
-.hero-heading-padding{
+.hero-heading-padding {
   padding: 230px 0px 10px 132px;
 }
-.hero-paragrah{
- 
-  font-family: "Hind Vadodara", sans-serif!important;
+.hero-paragrah {
+  font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -152,12 +156,10 @@ line-height: 28px;
 }
 .main-heading {
   font-style: normal;
-font-weight: 700;
-font-size: 120px;
-line-height: 120px;
- 
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 120px;
 }
-
 
 .hero-btn {
   background-color: black;
@@ -172,22 +174,20 @@ line-height: 120px;
 }
 .hero-btn:hover {
   color: white;
-  border-color: #d8aaf8!important;
+  border-color: #d8aaf8 !important;
   background-color: #d8aaf8;
 }
 /* hero section css end */
 /* lof section 1 start */
-.main-heading-lof-section{
+.main-heading-lof-section {
   font-family: allround-Font !important;
   font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 60px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 /* lof section 1 end  */
-
-
 
 /* lof plateform section 2 css start */
 .slider-div h1 {
@@ -273,7 +273,6 @@ line-height: 60px;
   z-index: 1;
   display: flex;
   flex-flow: column;
-  
 }
 
 #faqs .qa-pairs dl > * {
@@ -291,8 +290,6 @@ line-height: 60px;
   font-size: 30px;
 }
 #faqs .qa-pairs .faq-toggle {
-
-  
   margin-right: 20px;
   margin-top: 13px;
   position: absolute;
@@ -306,7 +303,6 @@ line-height: 60px;
   height: 20px;
   display: table;
   cursor: pointer;
- 
 }
 #faqs .qa-pairs .faq-toggle .circle {
   top: 10px;
@@ -320,7 +316,6 @@ line-height: 60px;
   transform: rotate(0deg);
   transform-origin: 50% 50%;
   transition: transform 0.5s;
- 
 }
 #faqs .qa-pairs .faq-toggle .minus,
 #faqs .qa-pairs .faq-toggle .plus {
@@ -333,7 +328,6 @@ line-height: 60px;
   margin-left: -5px;
   top: 50%;
   margin-top: -1px;
- 
 }
 #faqs .qa-pairs .faq-toggle .plus {
   position: absolute;
@@ -341,28 +335,23 @@ line-height: 60px;
   transform: rotate(90deg);
   transform-origin: 50% 50%;
   transition: width 0.5s;
-
 }
 #faqs .qa-pairs dd {
   padding: 22px 24px 34px 24px;
   margin-top: -10px;
   order: 2;
   background: #121016;
-  
 }
 #faqs .qa-pairs dl.active .faq-toggle {
   /*background-position: right top;*/
-  
 }
 #faqs .qa-pairs dl.active .faq-toggle .circle {
   transform: rotate(720deg);
   transition: transform 0.5s;
- 
 }
 #faqs .qa-pairs dl.active .faq-toggle .plus {
   width: 0px;
   transition: width transform 0.5s;
- 
 }
 @media (max-width: 767px) {
   #faqs .qa-pairs dl {
@@ -397,7 +386,8 @@ line-height: 60px;
   color: #d8aaf8;
   margin-left: 60px;
 }
-.token-box {border-radius: 5px;
+.token-box {
+  border-radius: 5px;
   background-color: #121016;
   padding: 18px 12px 0px 12px;
 }
@@ -407,7 +397,7 @@ line-height: 60px;
 .token-points {
   padding: 80px;
 }
-.token-padding{
+.token-padding {
   padding: 0px 80px 0px 80px;
 }
 .token-points > ul > li {
@@ -473,54 +463,51 @@ line-height: 60px;
 }
 /* Tokenomics section css end  */
 /* dashboared section start */
-.dash-pad{
-padding-left: 68px;
-padding-top: 35px;
+.dash-pad {
+  padding-left: 68px;
+  padding-top: 35px;
 }
-.dash-body-mar{
+.dash-body-mar {
   margin-top: 12px;
   font-family: "Hind Vadodara", sans-serif;
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 35px;
-width: 98%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  width: 98%;
 }
-.dash-button-mar{
+.dash-button-mar {
   margin-top: 28px;
 }
-.dash-heading{
+.dash-heading {
   font-family: allround-Font !important;
   font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 72px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
 }
-.dash-paragraph{
+.dash-paragraph {
   margin-top: 30px;
   font-family: "Hind Vadodara", sans-serif;
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 35px;
-width: 98%;
-
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  width: 98%;
 }
-.dashbored-img{
+.dashbored-img {
   width: 1156px;
   height: 809px;
 }
-.dashbored-padding{
-  padding: 200px 0px 0px 70px ;
+.dashbored-padding {
+  padding: 200px 0px 0px 70px;
 }
 
 /* dashbored section end */
 /* roadmap css start  */
-.roadmap-section-padding{
-  padding-top: 200px ;
+.roadmap-section-padding {
+  padding-top: 200px;
 }
-
-
 
 a {
   color: #7b9d6f;
@@ -930,78 +917,77 @@ Main Components
 
 /* roadmap css  End*/
 /* White paper start */
-.whitepaper-img{
+.whitepaper-img {
   width: 1396px;
   height: 909px;
 }
-.whitepaper-padding-top{
+.whitepaper-padding-top {
   padding-top: 200px;
 }
-.whitepaper-heading{
+.whitepaper-heading {
   font-family: allround-Font !important;
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
   line-height: 110px;
 }
-.whitepaper-paragrph{
-  font-family: "Hind Vadodara", sans-serif!important;
+.whitepaper-paragrph {
+  font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 36px;
-margin-top: 20px;
-margin-bottom: 20px;
-width: 152%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 152%;
 }
 /* white paper end */
 /* team section start */
-.team-heading{
+.team-heading {
   font-family: allround-Font !important;
   font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 96px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
 }
-.team-paragraph{
-  font-family: "Hind Vadodara", sans-serif!important;
+.team-paragraph {
+  font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 /* team section end */
 
 /* mech store start */
-.mench-img{
+.mench-img {
   width: 1081px;
   height: 765px;
 }
 /* .mench-padding-top{
   padding-top: 100px;
 } */
-.mench-paragraph{
-  font-family: "Hind Vadodara", sans-serif!important;
+.mench-paragraph {
+  font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 36px;
-margin-top: 30px;
-width: 115%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 30px;
+  width: 115%;
 }
-.mench-padding{
+.mench-padding {
   margin-top: 140px;
   padding-left: 50px;
 }
-.mench-heading{
+.mench-heading {
   font-family: allround-Font !important;
   font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 110px;
-width: 120%;
-
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110px;
+  width: 120%;
 }
 /* mench store end */
 /* contact start */
@@ -1069,16 +1055,12 @@ width: 120%;
   background-color: #d8aaf8;
 }
 
-
 /* contact end */
 /* partner section css start */
 
-.partner-padding-top{
+.partner-padding-top {
   padding-top: 300px;
 }
-
-
-
 
 #icons {
   display: none;
@@ -1137,7 +1119,6 @@ width: 120%;
   background: #fff;
   margin: 0 auto;
   overflow: hidden;
-  
 }
 .slider-content .slide {
   position: absolute;
@@ -1205,14 +1186,16 @@ width: 120%;
 }
 .slider-container .slide-content .txt-wrapper span.copy {
   position: relative;
-  text-transform: uppercase;
-  width: 2rem;
+  /* text-transform: uppercase; */
+  /* width: 2rem; */
   display: block;
-  font-size: 1rem;
+  font-size: 2.5rem;
+  color: #d8aaf8;
   line-height: 1;
-  margin-bottom: 4rem;
+
   font-weight: 500;
   opacity: 0;
+  font-family: "Smooch", cursive;
 }
 .slider-container .slide-content .txt-wrapper h2 {
   margin: 0;
@@ -1246,17 +1229,18 @@ width: 120%;
 }
 .slider-container .slide-content .txt-wrapper .subtitle {
   display: block;
-  text-transform: uppercase;
-  color: #aeacab;
+
+  color: white;
   font-weight: bold;
   letter-spacing: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 7rem;
   margin-bottom: 1rem;
+  font-family: allround-Font;
 }
 .slider-container .slide-content .txt-wrapper p.excerpt {
   margin: 0;
-  color: #aeacab;
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 .slider-container .slide-content .txt-wrapper span.view-all {
@@ -1374,16 +1358,14 @@ width: 120%;
     font-size: 10px;
   }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px){
-    .footer-list .footer-li .footer-links {
-      color: white;
-      font-family: "Hind Vadodara", sans-serif;
-      padding: 8px;
-      font-weight: 500;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footer-list .footer-li .footer-links {
+    color: white;
+    font-family: "Hind Vadodara", sans-serif;
+    padding: 8px;
+    font-weight: 500;
   }
+}
 /* Media querys end  */
 /* Footer css end */
 
@@ -1420,94 +1402,121 @@ width: 120%;
 .social-div ul {
   list-style: none;
 }
-.social-div ul li{
+.social-div ul li {
   margin: 20px 10px;
 }
 
 /* sider-bar css End */
 
-
-
 /* extra */
-.section-special{
+.section-special {
   height: 1080px;
 }
-.hero-img{
+.hero-img {
   width: 1268px;
-    height: 918px ;
+  height: 918px;
 }
-.whylof-img{
+.whylof-img {
   width: 1126px;
-    height: 693px ;
+  height: 693px;
 }
-.lof-section-margin{
+.lof-section-margin {
   margin-top: 200px;
 }
-.lof-section-paragraph-top{
-
+.lof-section-paragraph-top {
   margin-top: 16px;
-  
-  }
-  .lof-section-paragraph{
-    font-family: "Hind Vadodara", sans-serif!important;
-    font-style: normal;
+}
+.lof-section-paragraph {
+  font-family: "Hind Vadodara", sans-serif !important;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
   margin-top: 30px;
   width: 98%;
-  }
-  .hero-margin{
-    margin-top: 100px;
-  }
-  .lof-platfrom-heading-margin{
-    margin-top: 14px;
-  }
-  .lof-plateform-heading-padding{
-    padding: 165px 0px 10px 165px;
-  }
-  .lof-plateform-heading{
-    font-style: normal;
+}
+.hero-margin {
+  margin-top: 100px;
+}
+.lof-platfrom-heading-margin {
+  margin-top: 14px;
+}
+.lof-plateform-heading-padding {
+  padding: 165px 0px 10px 165px;
+}
+.lof-plateform-heading {
+  font-style: normal;
   font-weight: 700;
   font-size: 80px;
   line-height: 96px;
   width: 167%;
-  }
-  .lofplateform-img{
-    width: 1380px;
-    height: 864px;
-  }
-  .lof-plateform-paragraph{
-    font-family: "Hind Vadodara", sans-serif!important;
-    margin-top: 30px;
-    font-style: normal;
+}
+.lofplateform-img {
+  width: 1380px;
+  height: 864px;
+}
+.lof-plateform-paragraph {
+  font-family: "Hind Vadodara", sans-serif !important;
+  margin-top: 30px;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
   width: 185%;
+}
+.sub-heading {
+  font-family: "Hind Vadodara", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  width: 150%;
+}
+.lofplatform-img-2 {
+  width: 1090px;
+  height: 724;
+}
+.feature-logo {
+  height: 50px !important;
+  width: 50px !important;
+  margin-right: 12px !important;
+  font-family: "Hind Vadodara", sans-serif !important;
+}
+.feature-section-p {
+  font-size: 26px;
+  margin-top: 17px;
+  font-family: "Hind Vadodara", sans-serif !important;
+  color: white !important;
+}
+.feature-margin {
+  margin-top: 70px !important;
+}
+
+/* Model css Start  */
+.modal-content {
+  background: transparent !important;
+  border: none !important;
+}
+.modal-footer {
+  border: none !important;
+}
+.modal-header {
+  border: none !important;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: auto !important;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .sub-heading {
-    font-family: "Hind Vadodara", sans-serif!important;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 40px;
-    width: 150%;
-  }
-  .lofplatform-img-2{
-    width: 1090px;
-    height: 724;
-  }
-  .feature-logo{
-    height: 50px!important; width: 50px!important; margin-right: 12px!important; font-family: "Hind Vadodara", sans-serif!important;
-  }
-  .feature-section-p{
-    font-size: 26px;
-    margin-top: 17px;
-    font-family: "Hind Vadodara", sans-serif!important;
-    color: white!important;
-    
-  }
-  .feature-margin{
-    margin-top: 70px!important;
-  }
+}
+.close {
+  color: white !important;
+  opacity: 1 !important;
+}
+.carousel-control {
+  opacity: 1 !important;
+}
+/* Model css End  */
