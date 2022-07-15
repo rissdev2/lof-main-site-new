@@ -33,7 +33,7 @@ ul {
   margin: 0;
 }
 
-h1,
+h1{display: none;}
 h2,
 h3,
 h4,
@@ -991,7 +991,7 @@ Main Components
 }
 /* mench store end */
 /* contact start */
-.contct-txt > h1 {
+.contct-txt > h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
