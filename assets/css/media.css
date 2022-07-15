@@ -251,13 +251,79 @@ height: 1620px !important;
       margin-bottom: 100px !important;
     }
 }
+@media only screen 
+  and (min-device-width: 1260px) 
+  and (max-device-width: 1399px){
+    .hero-heading-padding {
+      padding: 230px 0px 10px 40px !important;
+  }
+  .hero-img {
+    width: 800px !important;
+    height: 581px !important;
+    margin-top: 212px !important;
 
+  }
+  .main-heading {
+    font-size: 90px !important;
+  }
+  
+.sub-heading {
+  font-size: 25px !important;
+}
+.whylof-img {
+  width: 775px !important;
+  height: 503px !important;
+  margin-top: 122px !important;  
+}
+.lof-plateform-heading-padding {
+  padding: 165px 0px 10px 50px !important;
+}
+.lofplateform-img {
+  width: 910px !important;
+  height: 581PX !important;
+  margin-top: 218px !important;
+}
+.lofplatform-img-2 {
+  width: 815px !important;
+  height: 541PX !important;
+}
+.dashbored-padding {
+  padding: 200px 0px 0px 0px !important;
+}
+.dash-pad {
+  padding-left: 50px !important;
+}
+.dashbored-img {
+  width: 815px !important;
+  height: 472px !important;
+  margin-top: 100px !important;
+}
+.whitepaper-heading{
+  font-size: 66px !important;
+  line-height: 84px !important;
+}
+.whitepaper-img {
+  width: 930px !important;
+ height: 579px !important;
+  margin-top: 142px !important;
+}
+.team-heading{
+  font-size:59px !important ;
+}
+.team-sec{
+  background-position: bottom !important;
+}
+.mench-img {
+    width: 815px !important;
+    height: 579px !important;
+    margin-top: 120px !important;
 
-
-
-
-
-
+  }
+  .mench-heading {
+    font-size: 79px !important ;
+    line-height: 97px !important;
+  }
+}
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
