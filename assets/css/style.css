@@ -4,11 +4,15 @@
   src: url(../fonts/All-Round-Gothic-Bold.ttf);
 }
 
+.slider-wrapper{
+  height: 1080px!important;
+}
+
 /* body css start */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 ;
+  padding: 0 ;
   box-sizing: border-box;
 }
 body {
@@ -269,7 +273,9 @@ line-height: 60px;
   z-index: 1;
   display: flex;
   flex-flow: column;
+  
 }
+
 #faqs .qa-pairs dl > * {
   font-family: "Hind Vadodara", sans-serif !important ;
   font-size: 18px;
@@ -285,8 +291,8 @@ line-height: 60px;
   font-size: 30px;
 }
 #faqs .qa-pairs .faq-toggle {
-  /*background: url(http://rephresh.colangelo-sm.com/img/plus-minus.png);*/
-  /*background-position: left top;*/
+
+  
   margin-right: 20px;
   margin-top: 13px;
   position: absolute;
@@ -300,6 +306,7 @@ line-height: 60px;
   height: 20px;
   display: table;
   cursor: pointer;
+ 
 }
 #faqs .qa-pairs .faq-toggle .circle {
   top: 10px;
@@ -313,6 +320,7 @@ line-height: 60px;
   transform: rotate(0deg);
   transform-origin: 50% 50%;
   transition: transform 0.5s;
+ 
 }
 #faqs .qa-pairs .faq-toggle .minus,
 #faqs .qa-pairs .faq-toggle .plus {
@@ -325,6 +333,7 @@ line-height: 60px;
   margin-left: -5px;
   top: 50%;
   margin-top: -1px;
+ 
 }
 #faqs .qa-pairs .faq-toggle .plus {
   position: absolute;
@@ -332,27 +341,33 @@ line-height: 60px;
   transform: rotate(90deg);
   transform-origin: 50% 50%;
   transition: width 0.5s;
+
 }
 #faqs .qa-pairs dd {
   padding: 22px 24px 34px 24px;
   margin-top: -10px;
   order: 2;
   background: #121016;
+  
 }
 #faqs .qa-pairs dl.active .faq-toggle {
   /*background-position: right top;*/
+  
 }
 #faqs .qa-pairs dl.active .faq-toggle .circle {
   transform: rotate(720deg);
   transition: transform 0.5s;
+ 
 }
 #faqs .qa-pairs dl.active .faq-toggle .plus {
   width: 0px;
   transition: width transform 0.5s;
+ 
 }
 @media (max-width: 767px) {
   #faqs .qa-pairs dl {
     font-size: 1.2em;
+    color: #d8aaf8;
   }
 }
 /* my own css */
@@ -392,7 +407,9 @@ line-height: 60px;
 .token-points {
   padding: 80px;
 }
-
+.token-padding{
+  padding: 0px 80px 0px 80px;
+}
 .token-points > ul > li {
   font-size: 27px;
   padding: 20px;
@@ -1061,11 +1078,7 @@ width: 120%;
 }
 
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
+
 
 #icons {
   display: none;
@@ -1164,7 +1177,7 @@ width: 120%;
 
 .slider-container {
   position: relative;
-  height: 65rem;
+  height: 1080px;
   overflow: hidden;
 }
 .slider-container:after {
