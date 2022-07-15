@@ -5,6 +5,9 @@
 .main-heading{
   font-size: 57px !important;
 }
+.sub-heading{
+  width: 100% !important;
+}
 .hero-paragrah{
   width: 96% !important;
   font-size: 19px !important;
@@ -17,9 +20,20 @@
   width: 330px!important;
     height: 203px !important;
 }
+.lof-plateform-heading-padding{
+  padding: 0px 16px 0px 16px !important;
+}
 .lof-section-margin{
   display: flex;
   flex-direction: column-reverse;
+}
+
+.lof-plateform-heading{
+  width: 100% !important;
+  font-size: 54px !important;
+}
+.lof-plateform-paragraph {
+  width: 100% !important;
 }
 .lofplateform-img{
   width: 330px!important;
@@ -63,16 +77,42 @@
   font-weight: 400 !important;
   padding: 22px 54px 12px 24px !important;
 }
-.img-fluid1{
+.dashbored-padding{
+  padding: 0px 0px 0px 0px !important;
+}
+.dash-pad {
+  padding: 0px 16px 0px 16px !important;
+}
+.dashbored-img{
   width: 330px!important;
     height: 234px !important;
 }
 .roadmap-padding{
   padding: 0px 0px 0px 0px !important;
 }
+
 .whitepaper-heading{
   font-size: 57px !important;
   line-height: 70px !important;
+}
+.whitepaper-paragrph{
+ width: 100% !important; 
+}
+.whitepaper-img{
+  width: 330px!important;
+    height: 234px !important;
+}
+.mench-heading{
+  width: 100% !important;
+  font-size: 54px !important;
+  line-height: 63px !important;
+}
+.mench-paragraph{
+  width: 100% !important;
+}
+.mench-img{
+  width: 330px!important;
+    height: 234px !important;
 }
 .team-sec{
  background: url() !important;
@@ -105,10 +145,15 @@ height: 1620px !important;
   display: block !important;
 }
 .social-div{
-  right: 10px !important;
+  display: none !important;
 }
 .slide-head{
   font-size: 20px !important;
+}
+.section-special{
+  height: auto !important;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
 }
 }
 
