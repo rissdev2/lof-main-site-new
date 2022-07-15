@@ -291,8 +291,7 @@ line-height: 60px;
   font-size: 30px;
 }
 #faqs .qa-pairs .faq-toggle {
-  /*background: url(http://rephresh.colangelo-sm.com/img/plus-minus.png);*/
-  /*background-position: left top;*/
+
   margin-right: 20px;
   margin-top: 13px;
   position: absolute;
