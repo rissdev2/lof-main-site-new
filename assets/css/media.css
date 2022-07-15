@@ -114,6 +114,9 @@
   width: 330px!important;
     height: 234px !important;
 }
+.mench-padding{
+  padding-left: 15px !important;
+}
 .team-sec{
  background: url() !important;
  background-repeat: no-repeat !important;
@@ -168,30 +171,49 @@ height: 1620px !important;
       width: 100% !important;
     }
     .hero-img{
-      width: 737px;
+      width: 730px !important;
+      height: 529px !important;
+    }
+    .lof-plateform-paragraph {
+      width: 100% !important;
+    }
+    .lof-plateform-heading{
+      width: 100% !important;
     }
     .lof-section-margin{
       display: flex;
       flex-direction: column-reverse;
     }
+    .lof-plateform-heading-padding{
+      padding: 0px 16px 0px 16px !important;
+    }
     .whylof-img{
-      width: 730px;
+      width: 730px !important;
     }
     .lofplateform-img{
-      width: 730px;
+      width: 730px !important;
+      height: 475px !important;
     }
     .lof-platform2-mbl{
       display: flex;
       flex-direction: column-reverse;
     }
     .lofplatform-img-2{
-      width: 730px;
+      width: 730px !important;
     }
     .token-heading{
       font-size: 100px !important;
     }
-    .img-fluid1{
+    .dashbored-img{
+      width: 700px !important;
+      height: 427px !important;
+    }
+    .whitepaper-paragrph{
+     width: 100% !important; 
+    }
+    .whitepaper-img{
       width: 730px !important;
+      height: 523PX !important;
     }
     .team-sec{
       background: url() !important;
@@ -199,6 +221,21 @@ height: 1620px !important;
       background-size: cover !important;
      height: 1620px !important;
      }
+     .mench-img{
+      width: 730px !important;
+      height: 518px !important;
+     }
+     .mench-heading{
+      width: 100% !important;
+      
+    }
+    .mench-paragraph{
+      width: 100% !important;
+    }
+    .merch-mbl{
+      display: flex;
+      flex-direction: column-reverse;
+    }
      .team-img{
       display: block !important;
     }
@@ -207,6 +244,11 @@ height: 1620px !important;
     }
     .text-area{
       width: 68% !important;
+    }
+    .section-special{
+      height: auto !important;
+      margin-top: 100px !important;
+      margin-bottom: 100px !important;
     }
 }
 
