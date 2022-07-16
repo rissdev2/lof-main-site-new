@@ -85,7 +85,7 @@ button:focus {
 /* body css end */
 /* navbar css start  */
 .navigation {
-  height: 55px;
+  height: 70px;
   /* background: linear-gradient(45deg, #4199fe, #74b4fe); */
   opacity: 80%;
   background: black !important;
@@ -98,11 +98,16 @@ button:focus {
 }
 .brand {
   position: absolute;
-  padding-left: 20px;
+  padding: 8px;
   float: left;
+  margin-left: 50px;
   line-height: 55px;
   text-transform: uppercase;
   font-size: 1.4em;
+}
+.brand>img{
+  width: 100%;
+  height: 100%;
 }
 .brand a,
 .brand a:visited {
@@ -114,16 +119,18 @@ button:focus {
   margin: 0 auto;
 }
 nav {
-  float: right;
+  margin-left: 140px;
+  float: left;
 }
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 nav ul li {
   float: left;
   position: relative;
+  margin-left: 4px;
 }
 nav ul li a,
 nav ul li a:visited {
@@ -320,7 +327,7 @@ nav ul li ul li a {
 .hero-paragrah {
   font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 40px;
   letter-spacing: -0.03em;
@@ -342,7 +349,7 @@ nav ul li ul li a {
   border-radius: 8px;
   border-width: 2px;
   padding: 9px 25px;
-  margin: 10px 10px 10px 0px;
+  margin: 10px 20px 10px 0px;
 }
 .hero-btn:hover {
   color: white;
@@ -1614,17 +1621,24 @@ Main Components
   margin-top: 100px;
 }
 .lof-platfrom-heading-margin {
+  font-family: "Hind Vadodara", sans-serif !important;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  width: 185%;
   margin-top: 14px;
 }
 .lof-plateform-heading-padding {
-  padding: 165px 0px 10px 165px;
+  padding: 130px 0px 10px 165px;
 }
 .lof-plateform-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
   line-height: 96px;
-  width: 167%;
+  width: 175%;
 }
 .lofplateform-img {
   width: 1380px;
@@ -1632,7 +1646,7 @@ Main Components
 }
 .lof-plateform-paragraph {
   font-family: "Hind Vadodara", sans-serif !important;
-  margin-top: 30px;
+  margin-top: 28px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
