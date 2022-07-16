@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+@font-face {
+  font-family: allround-Font;
+  src: url(../fonts/All-Round-Gothic-Bold.ttf);
+}
+ 
+
+
+
+
+
+
+.navbar-li{
+    margin-top: 1%;
+}
+.navbar-li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Hind Vadodara", sans-serif;
+}
+.navbar-li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/**************** privacy page css  ****************/
+
+.pt-5{
+    padding-top: 3rem;
+}
+.text-white{
+    color: #ffffff;
+}
+.for-PrivacyBg {
+    height: 95vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0% 6%;
+   
+    background-color: black;
+}
+.for-PrivacyBg .termsScroll {
+    height: 60vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.privacy-heading h1 {
+  font-family: allround-Font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 7%;
+}
+.privacy-heading h1 span {
+    color: #d8aaf8;
+}
+.mainPrivacy-txt p {
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.mainPrivacy-txt p span {
+    color: #d8aaf8;
+}
+.defination-part h4 {
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #d8aaf8;
+}
+.defination-part h3 {
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #d8aaf8;
+}
+.defination-part p {
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.defination-part span {
+    color: #d8aaf8;
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+.defination-part .circleSpan {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.defination-part li {
+ font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.defination-part ul {
+    list-style: none;
+   /* Remove default bullets */
+}
+.defination-part ul li::before {
+    content:"\2022";
+    color: #d8aaf8;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: normal;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.for-list-dot {
+    list-style-type: circle !important;
+}
+
+
+/************** risk policy css  **************/
+
+.text-light{
+    color: #ffffff;
+}
+
+.rowPadding{
+    margin-top: 7%;
+}
+.RiskPolicyDiv {
+  
+    height: 95vh;
+    background-image: url();
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.RiskPolicyDiv p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Hind Vadodara;
+}
+.RiskPolicyDiv li {
+    font-size: 1.1rem;
+    font-family: Hind Vadodara;
+}
+.RiskPolicyDiv .rowPadding {
+    padding: 0 6%;
+}
+.RiskPolicyDiv .PinkColor {
+    color: #d8aaf8;
+}
+.RiskPolicyDiv .fweight {
+    font-weight: 600;
+}
+.RiskPolicyDiv .firstH1 {
+  font-family: allround-Font;
+    font-style: normal;
+    font-size: 3rem;
+}
+.RiskPolicyDiv .firstH2 {
+  font-family: allround-Font;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+.RiskPolicyDiv ul {
+    list-style: none;
+   /* Remove default bullets */
+}
+.RiskPolicyDiv ul li::before {
+    content: "\2022";
+    color: #d8aaf8;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: normal;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.RiskPolicyDiv .termsScroll {
+    height: 60vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+/****************** Terms and Conditions css  *************/
+.TermAndConditionDiv {
+    /* padding-top: 7%; */
+    height: 95vh;
+    background-image: url();
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.TermAndConditionDiv p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Hind Vadodara;
+}
+.TermAndConditionDiv li {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    font-family: Hind Vadodara;
+}
+.TermAndConditionDiv .rowPadding {
+    padding: 0 6%;
+}
+.TermAndConditionDiv .PinkColor {
+    color: #d8aaf8;
+}
+.TermAndConditionDiv .fweight {
+    font-weight: 600;
+}
+.TermAndConditionDiv .firstH1 {
+     font-family: allround-Font;
+    font-style: normal;
+    font-size: 3rem;
+}
+.TermAndConditionDiv .firstH2 {
+     font-family: allround-Font;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+.TermAndConditionDiv .firsth4 {
+    font-weight: 700;
+}
+.TermAndConditionDiv h6 {
+    font-size: 1.1rem;
+}
+.TermAndConditionDiv ul {
+    list-style: none;
+   /* Remove default bullets */
+}
+.TermAndConditionDiv ul li::before {
+    content: "\2022";
+    color: #d8aaf8;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: normal;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.TermAndConditionDiv .termsScroll {
+    height: 60vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+/******************** Fotter css ********************/
+
+
+/* Footer css Start */
+.fotter-div {
+    background-color: #121016;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-list li {
+    display: inline;
+    list-style: none;
+  }
+  .footer-list .footer-li .footer-links {
+    color: white;
+    font-family: "Hind Vadodara", sans-serif;
+    padding: 8px;
+    font-weight: 500;
+  }
+  .copy-right {
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  /* Media querys starts  */
+  @media only screen and (max-width: 600px) {
+    .footer-list .footer-li .footer-links {
+      font-size: 10px;
+      padding: 5px;
+    }
+    .copy-right {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .footer-list .footer-li .footer-links {
+      color: white;
+      font-family: "Hind Vadodara", sans-serif;
+      padding: 8px;
+      font-weight: 500;
+    }
+  }
+  /* Media querys end  */
+  /* Footer css end */
