@@ -1614,7 +1614,7 @@ Main Components
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
-  margin-top: 30px;
+  margin-top: 25px;
   width: 98%;
 }
 .hero-margin {
@@ -1627,11 +1627,11 @@ Main Components
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
-  width: 185%;
+  width: 180%;
   margin-top: 14px;
 }
 .lof-plateform-heading-padding {
-  padding: 130px 0px 10px 165px;
+  padding: 130px 0px 10px 132px;
 }
 .lof-plateform-heading {
   font-style: normal;
@@ -1646,12 +1646,12 @@ Main Components
 }
 .lof-plateform-paragraph {
   font-family: "Hind Vadodara", sans-serif !important;
-  margin-top: 28px;
+  margin-top: 23px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
-  width: 185%;
+  width: 169%;
 }
 .sub-heading {
   font-family: "Hind Vadodara", sans-serif !important;
