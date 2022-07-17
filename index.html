@@ -55,7 +55,7 @@
             <li>
               <a href="#!">Home</a>
             </li>
-          <li><a href="#">What is LOF?</a></li>
+          <li><a href="" id="myButton3">What is LOF?</a></li>
           <li><a href="#">LOF platform</a></li>
           <li><a href="#">Tokenomics</a></li>
           <li><a href="#">Official partners</a></li>
@@ -180,7 +180,7 @@
   </section>
   <!-- Hero Section End -->
   <!-- What is Lof Section Start -->
-  <section class="section-special">
+  <section class="section-special" id="mydiv">
     <div class="container-fluid ">
       <div class="row lof-section-margin">
         <div class="col-md-6">
@@ -192,8 +192,8 @@
 
           <p class="lof-section-paragraph-top lof-section-paragraph">
             Lonelyfans is a cryptocurrency project, a whole ecosystem built around its native smartchain token LOF. The
-            project's ultimate goal is to reward investors by perpetually raising the value of LOF token and the amount
-            of their dividends.
+            project's ultimate goal is to recompense investors by perpetually raising the value of LOF token and the amount
+            of their rewards.
           </p>
           <p class="lof-section-paragraph">
             To achieve this, we have engineered one of the most sophisticated token contracts in the whole crypto space.
@@ -1416,14 +1416,14 @@ This requires keeping very high standards, transparency, and trustworthiness in 
         <div class="col-md-9 links-mbl text-start ">
           <ul class="footer-list" style="margin-left: 40px;">
             <li class="footer-li">
-              <a class="footer-links" href="./termandconditions.html"> Term and Conditions </a>
+              <a class="footer-links" id="myButton" href="./termandconditions.html"> Term and Conditions </a>
             </li>
             <li class="footer-li">
-              <a class="footer-links" href="./personaldataprivacypolicy.html">Personal Data Privacy policy
+              <a class="footer-links" id="myButton1" href="./personaldataprivacypolicy.html">Personal Data Privacy policy
               </a>
             </li>
             <li class="footer-li">
-              <a class="footer-links" href="./riskdisclosurepolicy.html"> Risk disclosure policy</a>
+              <a class="footer-links"  id="myButton2" href="./riskdisclosurepolicy.html"> Risk disclosure policy</a>
             </li>
           </ul>
         </div>
@@ -1439,6 +1439,32 @@ This requires keeping very high standards, transparency, and trustworthiness in 
   </div>
   <!-- End of .container -->
   <!-- Footer End  -->
+
+
+ 
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "./termandconditions.html";
+    };</script>
+
+<script type="text/javascript">
+  document.getElementById("myButton3").onclick = function () {
+    $('html, body').animate({
+        scrollTop: $("#mydiv").offset().top
+    }, 1000);
+  };</script>
+
+<script type="text/javascript">
+  document.getElementById("myButton1").onclick = function () {
+      location.href = "./personaldataprivacypolicy.html";
+  };</script>
+
+
+<script type="text/javascript">
+  document.getElementById("myButton2").onclick = function () {
+      location.href = "./riskdisclosurepolicy.html";
+  };</script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
