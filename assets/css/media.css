@@ -32,6 +32,9 @@
   width: 100% !important;
   font-size: 54px !important;
 }
+.lof-platfrom-heading-margin {
+  width: 100% !important;
+}
 .lof-plateform-paragraph {
   width: 100% !important;
 }
@@ -171,6 +174,9 @@ height: 1620px !important;
     .hero-paragrah{
       width: 100% !important;
     }
+    .sub-heading{
+      width: 100% !important;
+    }
     .hero-img{
       width: 730px !important;
       height: 529px !important;
@@ -179,6 +185,9 @@ height: 1620px !important;
       width: 100% !important;
     }
     .lof-plateform-heading{
+      width: 100% !important;
+    }
+    .lof-platfrom-heading-margin {
       width: 100% !important;
     }
     .lof-section-margin{
@@ -257,6 +266,66 @@ height: 1620px !important;
     }
 }
 @media only screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1259px){
+    .hero-heading-padding {
+      padding: 230px 0px 10px 17px !important;
+  }
+  .main-heading{
+    font-size: 77px !important;
+    line-height: 70px !important;
+  }
+  .sub-heading{
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+  .hero-img {
+    width: 670px !important;
+    height: 487px !important;
+    margin-top: 130px !important;
+  }
+  .hero-paragrah{
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+  .lof-section-paragraph{
+    margin-top: 0px !important;
+    line-height: 20px !important;
+    font-size: 12px !important; 
+  }
+  .main-heading-lof-section{
+    font-size: 35px !important;
+  line-height: 25px !important;
+
+  }
+  .whylof-img {
+    width: 660px !important;
+    height: 429px !important;
+  }
+  .lof-plateform-heading{
+    font-size: 33px !important;
+    line-height: 25px !important; 
+  }
+  .lof-plateform-heading-padding {
+    padding: 130px 0px 10px 35px !important;
+}
+.lof-platfrom-heading-margin{
+  font-size: 12px !important;
+  margin-top: 0px !important;
+  line-height: 25px !important;
+}
+.lof-plateform-paragraph {
+  font-size: 12px !important;
+  margin-top: 0px !important;
+  line-height: 25px !important;
+}
+.lofplateform-img {
+  width: 750px !important;
+  height: 470px !important;
+  margin-top: 60px !important;
+}
+}
+@media only screen 
   and (min-device-width: 1260px) 
   and (max-device-width: 1399px){
     .hero-heading-padding {
@@ -279,6 +348,9 @@ height: 1620px !important;
   width: 775px !important;
   height: 503px !important;
   margin-top: 122px !important;  
+}
+.lof-platfrom-heading-margin {
+  width: 100% !important;
 }
 .lof-plateform-heading-padding {
   padding: 165px 0px 10px 50px !important;
