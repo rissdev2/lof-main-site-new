@@ -334,6 +334,60 @@ height: 1620px !important;
   height: 470px !important;
   margin-top: 60px !important;
 }
+.lofplatform-img-2 {
+  width: 750px !important;
+  height: 498px !important;
+  margin-top: 90px;
+}
+.slider-div p{
+  padding-right: 0px !important;
+}
+.dashbored-img{
+  width: 765px !important;
+  height: 442px !important;
+  margin-left: -90px !important;
+  margin-top: 120px !important;
+}
+.dash-body-mar{
+  line-height: 25px !important;
+  width: 107% !important; 
+}
+.dash-paragraph{
+  line-height: 25px !important;
+  width: 107% !important; 
+  margin-top: 10px !important;
+    
+}
+.whitepaper-img{
+  width: 830px !important;
+  height: 516px !important;
+  margin-top: 80px;
+}
+.whitepaper-heading {
+  font-size: 36px !important;
+  line-height: 50px !important;
+}
+.br-hide{
+  display: none;
+}
+.whitepaper-paragrph{
+  width: 200% !important;
+  line-height: 30px !important;
+}
+.team-heading {
+font-size: 53px !important;
+}
+.mench-img{
+  width: 780px !important;
+  height: 555px !important;
+}
+.mench-heading{
+  font-size: 44px !important;
+  line-height: 0px !important;
+}
+.set-resp{
+  width: 67% !important; 
+}
 }
 @media only screen 
   and (min-device-width: 1260px) 
@@ -373,6 +427,9 @@ height: 1620px !important;
 .lofplatform-img-2 {
   width: 815px !important;
   height: 541PX !important;
+}
+.slider-div p{
+  padding-right: 0px !important;
 }
 .dashbored-padding {
   padding: 200px 0px 0px 0px !important;

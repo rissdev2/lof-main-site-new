@@ -31,6 +31,9 @@
       height: 608px !important;
       width: 915px !important;
     }
+    .slider-div p{
+      padding-right: 0px !important;
+    }
     .dashbored-padding {
       padding: 200px 0px 0px 0px !important;
     }
