@@ -2,6 +2,9 @@
   .hero-heading-padding {
     padding: 70px 0px 10px 15px !important;
 }
+.white-heading-padding {
+  padding: 70px 0px 10px 15px !important;
+}
 .main-heading{
   font-size: 57px !important;
 }
@@ -89,6 +92,7 @@
 .dashbored-img{
   width: 330px!important;
     height: 234px !important;
+    margin-left: 0px !important;
 }
 .roadmap-padding{
   padding: 0px 0px 0px 0px !important;
@@ -161,7 +165,12 @@ height: 1620px !important;
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
-
+.br-hide{
+  display: none;
+}
+.contct-txt > h2{
+  font-size: 50px !important;
+} 
 }
 
 
@@ -217,6 +226,7 @@ height: 1620px !important;
     .dashbored-img{
       width: 700px !important;
       height: 427px !important;
+      margin-left: 0px !important;
     }
     .whitepaper-paragrph{
      width: 100% !important; 

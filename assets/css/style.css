@@ -685,6 +685,7 @@ nav ul li ul li a {
 .dashbored-img {
   width: 1156px;
   height: 809px;
+  margin-left: -90px;
 }
 .dashbored-padding {
   padding: 200px 0px 0px 70px;
@@ -1104,6 +1105,10 @@ Main Components
 
 /* roadmap css  End*/
 /* White paper start */
+.white-heading-padding{
+  padding: 120px 0px 10px 132px;
+}
+
 .whitepaper-img {
   width: 1396px;
   height: 909px;
@@ -1122,7 +1127,7 @@ Main Components
   font-family: "Hind Vadodara", sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 36px;
   margin-top: 20px;
   margin-bottom: 20px;
