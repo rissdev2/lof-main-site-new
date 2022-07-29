@@ -597,7 +597,7 @@ nav ul li ul li a {
   color: #089ef4;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
  margin-left: -30px;
 }
 .bullet-2::before {
@@ -605,7 +605,7 @@ nav ul li ul li a {
   color:#5146d1 ;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
  margin-left: -30px;
 }
 .bullet-3::before {
@@ -613,7 +613,7 @@ nav ul li ul li a {
   color: #c056a6;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
   margin-left: -30px;
 }
 .bullet-4::before {
@@ -621,7 +621,7 @@ nav ul li ul li a {
   color: #089ff5;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
  margin-left: -30px;
 }
 .bullet-5::before {
@@ -629,7 +629,7 @@ nav ul li ul li a {
   color: #8300de;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
   margin-left: -30px;m;
 }
 .bullet-6::before {
@@ -637,7 +637,7 @@ nav ul li ul li a {
   color: #5b50d3;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
   margin-left: -30px;
 }
 .bullet-7::before {
@@ -645,7 +645,7 @@ nav ul li ul li a {
   color: #c96db3;
   font-weight: bold;
   display: inline-block;
-  font-size:50px ;
+  font-size:55px ;
  margin-left: -30px;
 }
 /* Tokenomics section css end  */
