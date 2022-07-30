@@ -40,7 +40,51 @@
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
+<style>
+.btn1 {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #d8aaf8;
+  border-radius: 10px;
+  outline: none;
+  transition: 1s ease-in-out;
+  margin-top: 50px;
+}
 
+svg {
+  position: relative;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 120 480;
+  stroke-dashoffset: 120;
+  transition: 1s ease-in-out;
+  margin-top: -10px;
+}
+rect{
+  margin-top: -30px;
+}
+.btn1:hover {
+  transition: 1s ease-in-out;
+  background: transparent;
+}
+
+.btn1:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn1 span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  position: relative;
+  bottom: 45px;
+}
+
+</style>
 </head>
 
 <body>
@@ -169,16 +213,24 @@
             opportunities for investors, content creators and users.
             Welcome to the wonderful world of Lonelyfans!
           </p>
-
-          <button type="button" class="btn btn-outline-primary glow-on-hover hero-btn  me-3">
-            LOF platform
+          <button class="btn1">
+            <svg width="120px" height="60px" viewBox="0 0 180 60" class="border">
+              <!-- <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" /> -->
+              <rect x="0" y="0" width="177" height="72" rx="10"
+              fill="none" stroke="white" stroke-width="2" />
+            </svg>
+            <span>LOF platform</span>
           </button>
-          <!-- <button type="button" class="btn btn-outline-primary hero-btn">
+          <!-- <button type="button" class="btn btn-outline-primary hero-btn  me-3">
+            LOF platform
+          </button> -->
+          <button type="button" class="btn btn-outline-primary hero-btn">
+            Buy LOF
+          </button>
+          <!-- <button type="button" class="btn btn-outline-primary glow-on-hover hero-btn  me-3">
             Buy LOF
           </button> -->
-          <button type="button" class="btn btn-outline-primary glow-on-hover hero-btn  me-3">
-            Buy LOF
-          </button>
         </div>
         <div class="col-md-8">
           <img alt="image" class="hero-img" src="./assets/img/hero.png" />
@@ -259,7 +311,7 @@
               <div class="slider-div">
                 <div class="" style="display: flex;">
                   <img
-                    src="./assets/icons/in-love.png"
+                    src="./assets/icons/in-love.svg"
                     class="img-fluid me-3"
                     alt=""
                     style="height: 35px; width: 35px"
@@ -277,7 +329,7 @@
               <div class="slider-div">
                 <div class="" style="display: flex;">
                   <img
-                    src="./assets/icons/money.png"
+                    src="./assets/icons/money.svg"
                     class="img-fluid me-3"
                     alt=""
                     style="height: 35px; width: 35px"
@@ -293,7 +345,7 @@
               <div class="slider-div">
                 <div class="" style="display: flex;">
                   <img
-                    src="./assets/icons/collaboration.png"
+                    src="./assets/icons/collaboration.svg"
                     class="img-fluid me-3"
                     alt=""
                     style="height: 35px; width: 35px"
@@ -309,7 +361,7 @@
               <div class="slider-div">
                 <div class="" style="display: flex;">
                   <img
-                    src="./assets/icons/privacy.png"
+                    src="./assets/icons/privacy.svg"
                     class="img-fluid me-3"
                     alt=""
                     style="height: 35px; width: 35px"
@@ -325,7 +377,7 @@
               <div class="slider-div">
                 <div class="" style="display: flex;">
                   <img
-                    src="./assets/icons/support.png"
+                    src="./assets/icons/support.svg"
                     class="img-fluid me-3"
                     alt=""
                     style="height: 35px; width: 35px"
@@ -587,7 +639,7 @@
             <li class="bullet-2">
               <span style="position: relative; bottom:7px;"> 1% + 1% to Development/Marketing wallet in BNB and BUSD</span>
             </li>
-            <li class="bullet-3"><span style="position: relative; bottom:7px;">2% to BNB/LOF liquidity pool</span></li>
+            <li class="bullet-3"><span style="position: relative; bottom:7px;left: 8px;">2% to BNB/LOF liquidity pool</span></li>
           </ul>
         </div>
         <div class="col-md-5">
@@ -624,7 +676,7 @@
             <li class="bullet-6">
               <span style="position: relative; bottom:7px;"> 5% to Buyback and Burn (Default Set to Automatic)</span>
             </li>
-            <li class="bullet-7"><span style="position: relative; bottom:7px;">3% to BNB/LOF liquidity pool</span></li>
+            <li class="bullet-7"><span style="position: relative; bottom:7px;left: 8px;">3% to BNB/LOF liquidity pool</span></li>
           </ul>
         </div>
       </div>
@@ -1285,7 +1337,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1200px; margin-top: 200px;">
+    height: 1300px; margin-top: 200px;">
     <div class="container-fluid" >
       <div class="row">
         <div class="col-md-4"></div>
