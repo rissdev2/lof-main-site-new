@@ -171,6 +171,15 @@ height: 1620px !important;
 .contct-txt > h2{
   font-size: 50px !important;
 } 
+.slider-container .slide-content .txt-wrapper span.copy{
+  font-size: 1.5rem !important;
+}
+.slider-container .slide-content .txt-wrapper .subtitle{
+  font-size: 6rem !important;
+}
+.slider-container .slide-content.txt{
+padding: 10px !important;
+}
 }
 
 
@@ -274,6 +283,9 @@ height: 1620px !important;
       display: flex !important;
       justify-content: center !important;
     }
+    .slider-container .slide-content.txt{
+      padding: 10px !important;
+      }
 }
 @media only screen 
   and (min-device-width: 1025px) 
