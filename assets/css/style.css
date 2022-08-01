@@ -352,9 +352,25 @@ nav ul li ul li a {
   border-radius: 8px;
   border-width: 2px;
   padding: 9px 25px;
-  margin: 10px 20px 55px 20px
+  margin: 33px 0px 55px -3px;
 }
 .hero-btn:hover {
+  color: white;
+  border-color: #d8aaf8 !important;
+  background-color: #d8aaf8;
+}
+.hero-btn1 {
+  background-color: black;
+  font-family: allround-Font !important;
+  color: white;
+  font-size: 14px;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 9px 25px;
+  margin: 4px 0px 55px 20px;
+}
+.hero-btn1:hover {
   color: white;
   border-color: #d8aaf8 !important;
   background-color: #d8aaf8;
@@ -650,6 +666,9 @@ nav ul li ul li a {
 }
 /* Tokenomics section css end  */
 /* dashboared section start */
+.dash-margin{
+  margin-top: 200px;
+}
 .dash-pad {
   padding-left: 68px;
   padding-top: 35px;
@@ -1433,7 +1452,7 @@ Main Components
 .slider-container .slide-content .txt-wrapper p.excerpt {
   margin: 0;
   color: white;
-  font-size: 2.5rem;
+  font-size: 20px ;
   line-height: 1.5;
 }
 .slider-container .slide-content .txt-wrapper span.view-all {
