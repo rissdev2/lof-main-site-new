@@ -162,8 +162,12 @@ height: 1620px !important;
 }
 .section-special{
   height: auto !important;
+}
+.lof-section-margin{
   margin-top: 100px !important;
-  margin-bottom: 100px !important;
+}
+.lof-plateform-heading{
+  margin-top: 100px !important;
 }
 .br-hide{
   display: none;
@@ -175,10 +179,33 @@ height: 1620px !important;
   font-size: 1.5rem !important;
 }
 .slider-container .slide-content .txt-wrapper .subtitle{
-  font-size: 6rem !important;
+  font-size: 2rem !important;
 }
 .slider-container .slide-content.txt{
 padding: 10px !important;
+}
+.slider-div p{
+  padding-right: 50px !important;
+}
+.owl-theme .owl-nav.disabled + .owl-dots{
+  margin-right: 30px !important;
+}
+.token-heading{
+  margin-top: 100px !important;
+}
+.all-round{
+  font-size: 21px !important;
+}
+.slider-container .slide-content .txt-wrapper p.excerpt{
+  padding-right: 14px !important;
+  font-size: 16px !important;
+  margin-bottom: 20px !important;
+}
+.dash-margin{
+  margin-top: 100px !important;
+}
+.whitepaper-padding-top{
+  padding-top: 100px !important;
 }
 }
 
