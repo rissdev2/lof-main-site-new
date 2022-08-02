@@ -352,7 +352,7 @@ nav ul li ul li a {
   border-radius: 8px;
   border-width: 2px;
   padding: 9px 25px;
-  margin: 33px 0px 55px -3px;
+  margin: 33px 0px 55px -2px;
 }
 .hero-btn:hover {
   color: white;
@@ -573,6 +573,7 @@ nav ul li ul li a {
 .token-heading-1 {
   font-family: allround-Font !important;
   font-size: 90px;
+  margin-top: 100px;
 }
 .token-sub {
   font-family: "Hind Vadodara", sans-serif !important;
@@ -748,8 +749,11 @@ Main Components
   position: relative;
   height: 100px;
   width: 90%;
+  background: #121016;
   /* //   max-width: 800px; */
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .cd-horizontal-timeline .events-wrapper {
   position: relative;
@@ -925,7 +929,7 @@ Main Components
   background: url(../img/cd-arrow.svg) no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
-  left: 0;
+  left: 20px ;
   -webkit-transform: translateY(-50%) rotate(180deg);
   -moz-transform: translateY(-50%) rotate(180deg);
   -ms-transform: translateY(-50%) rotate(180deg);
@@ -933,7 +937,7 @@ Main Components
   transform: translateY(-50%) rotate(180deg);
 }
 .cd-timeline-navigation a.next {
-  right: 0;
+  right: 20px;
 }
 .no-touch .cd-timeline-navigation a:hover {
   border-color: #7b9d6f;
@@ -1445,7 +1449,7 @@ Main Components
   color: white;
   font-weight: bold;
   letter-spacing: 0.3rem;
-  font-size: 10rem;
+  font-size: 9rem;
   margin-bottom: 1rem;
   font-family: allround-Font;
 }
@@ -1823,6 +1827,9 @@ Main Components
 padding: 0px !important ;
 }
 
+.set-pop{
+  top: 10% !important;
+}
 
 
 /* scroll bar  */
