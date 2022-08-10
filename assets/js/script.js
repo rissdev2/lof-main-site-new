@@ -140,42 +140,89 @@ $(function () {
   // tokenomics section javascript end
 
 
-  $(function () {
-    function isScrolledIntoView($elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-        var elemTop = $elem.offset().top;
-        var elemBottom = elemTop + $elem.height();
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-    }
+//   $(function () {
+//     function isScrolledIntoView($elem) {
+//         var docViewTop = $(window).scrollTop();
+//         var docViewBottom = docViewTop + $(window).height();
+//         var elemTop = $elem.offset().top;
+//         var elemBottom = elemTop + $elem.height();
+//         return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+//     }
 
-    function count($this) {
-        var current = parseInt($this.html(), 10);
-        if (isScrolledIntoView($this) && !$this.data("isCounting") && current < $this.data('count')) {
-            $this.html(++current);
-            $this.data("isCounting", true);
-            setTimeout(function () {
-                $this.data("isCounting", false);
-                count($this);
-            }, -100);
-        }
-    }
+//     function count($this) {
+//         var current = parseInt($this.html(), 10);
+//         if (isScrolledIntoView($this) && !$this.data("isCounting") && current < $this.data('count')) {
+//             $this.html(++current);
+//             $this.data("isCounting", true);
+//             setTimeout(function () {
+//                 $this.data("isCounting", false);
+//                 count($this);
+//             }, -100);
+//         }
+//     }
 
-    $(".c-section4").each(function () {
-        $(this).data('count', parseInt($(this).html(), 10));
-        $(this).html('0');
-        $(this).data("isCounting", false);
-    });
+//     $(".c-section4").each(function () {
+//         $(this).data('count', parseInt($(this).html(), 10));
+//         $(this).html('0');
+//         $(this).data("isCounting", false);
+//     });
 
-    function startCount() {
-        $(".c-section4").each(function () {
-            count($(this));
+//     function startCount() {
+//         $(".c-section4").each(function () {
+//             count($(this));
+//         });
+//     };
+
+//     $(window).scroll(function () {
+//         startCount();
+//     });
+
+//     startCount();
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 3000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
         });
-    };
-
-    $(window).scroll(function () {
-        startCount();
     });
+    a = 1;
+  }
 
-    startCount();
 });
