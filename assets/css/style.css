@@ -718,7 +718,10 @@ nav ul li ul li a {
 .roadmap-section-padding {
   padding-top: 200px;
 }
-
+.roadmap-txt{
+  font-size: 18px;
+  font-family: "Hind Vadodara", sans-serif;
+}
 a {
   color: #7b9d6f;
   text-decoration: none;
@@ -753,6 +756,8 @@ Main Components
   width: 90%;
   background: #121016;
   /* //   max-width: 800px; */
+  border-radius: 15px;
+
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -831,8 +836,9 @@ Main Components
   position: absolute;
   bottom: 0;
   z-index: 2;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-bottom: 15px;
   color: #ffffff;
   font-family: "Hind Vadodara", sans-serif;
@@ -1288,7 +1294,8 @@ Main Components
   position: absolute;
   height: 100%;
   width: 12rem;
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
+  padding-right: 125px;
   top: 0;
   right: 0;
   text-align: center;
@@ -1311,7 +1318,7 @@ Main Components
 }
 .nav-wrapper .nav-up svg,
 .nav-wrapper .nav-down svg {
-  fill: #666666;
+  fill: #fff;
   width: 100%;
   max-height: 100%;
 }
@@ -1327,7 +1334,7 @@ Main Components
   height: 0.1rem;
   background: black;
   margin: 1rem 0;
-  background: #666666;
+  background: #fff;
 }
 
 .slider-content {
