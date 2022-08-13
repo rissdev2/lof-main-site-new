@@ -10,7 +10,9 @@
 .slider-wrapper {
   height: 1080px !important;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* body css start */
 
 * {
@@ -28,6 +30,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #fff !important;
 }
 ol,
 ul {
@@ -721,6 +724,7 @@ nav ul li ul li a {
 .roadmap-txt{
   font-size: 18px;
   font-family: "Hind Vadodara", sans-serif;
+  margin-top: 24px;
 }
 a {
   color: #7b9d6f;
@@ -887,7 +891,7 @@ Main Components
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 10em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
@@ -1054,6 +1058,7 @@ Main Components
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
+    margin-top: 20px;
   }
 }
 
@@ -1873,6 +1878,81 @@ textarea::-webkit-scrollbar-thumb {
 
 
 
+/***************** pie graph shake effect *************/
 
+.shake-effect:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+ /************** icon change on hover  ****************/
+
+ .card {
+  
+  position: relative;
+  display: inline-block;
  
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+
+
+/************ Back to top button  *********/
+#top-button {
+  display: inline-block;
+  background-color: #d8aaf8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#top-button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#top-button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#top-button:active {
+  background-color: #555;
+}
+#top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
