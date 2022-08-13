@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./assets/css/19011950.css">
   <link rel="stylesheet" href="./assets/css/14001450.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  <script src="https://kit.fontawesome.com/1f4b816a3f.js" crossorigin="anonymous"></script>
   <!-- owl carsoul cdns start  -->
   <link
   rel="stylesheet"
@@ -60,7 +60,7 @@
      height: 46px;
   cursor: pointer;
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.253);
+  border: 2px solid rgba(255, 255, 255, 0.103);
   border-radius: 0px;
   outline: none;
   transition: 1s ease-in-out;
@@ -71,11 +71,13 @@ svg {
   left: 0;
   top: 0;
   fill: none;
+ 
   stroke: #fff;
   stroke-dasharray: 120 480;
   stroke-dashoffset: 120;
   transition: 1s ease-in-out;
   margin-top: -9px;
+  margin-left: -1px;
 }
 rect{
   margin-top: -30px;
@@ -119,6 +121,10 @@ rect{
 </head>
 
 <body>
+
+<!---------- back to top button  --------->
+<a id="top-button"></i></a>
+
 <!-- first navbar start  -->
     <section class="navigation">
       <div class="nav-container">
@@ -133,18 +139,18 @@ rect{
           </div>
           <ul class="nav-list">
             <li>
-              <a href="#!">Home</a>
+              <a href="#hero">Home</a>
             </li>
-          <li><a href="" id="myButton3">What is LOF?</a></li>
-          <li><a href="#">LOF platform</a></li>
-          <li><a href="#">Tokenomics</a></li>
-          <li><a href="#">Official partners</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Roadmap</a></li>
-          <li><a href="#">Whitepaper</a></li>
-          <li><a href="#">Team & vision</a></li>
-          <li><a href="#">Merch store</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#whatlof">What is LOF?</a></li>
+          <li><a href="#platform" >LOF platform</a></li>
+          <li><a href="#token">Tokenomics</a></li>
+          <li><a href="#partners">Official partners</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#whitepaper">Whitepaper</a></li>
+          <li><a href="#team">Team & vision</a></li>
+          <li><a href="#store">Merch store</a></li>
+          <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -196,32 +202,40 @@ rect{
   <div class="social-div ">
     <ul>
       <li>
-        <a href="#" target="_blank"><img src="./assets/icons/heart.png" class="img-fluid " alt="" />
+        <a href="#" class="card" target="_blank">
+          <img src="./assets/icons/heart1.png" class="img-fluid img-top" alt="" />
+          <img src="./assets/icons/heart.png" class="img-fluid " alt="" />
+
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/LOFcrypto" target="_blank"><img src="./assets/icons/twitter.png" class="img-fluid"
-            alt="" />
+        <a href="https://twitter.com/LOFcrypto" class="card" target="_blank">
+          <img src="./assets/icons/twitter1.png" class="img-fluid img-top"  alt="" />
+          <img src="./assets/icons/twitter.png" class="img-fluid" alt="" />
         </a>
       </li>
       <li>
-        <a href="https://t.me/LonelyFansChat" target="_blank"><img src="./assets/icons/telegram.png" class="img-fluid"
-            alt="" />
+        <a href="https://t.me/LonelyFansChat"  class="card" target="_blank">
+          <img src="./assets/icons/telegram1.png" class="img-fluid img-top"alt="" />
+          <img src="./assets/icons/telegram.png" class="img-fluid"alt="" />
         </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/lofcrypto/" target="_blank"><img src="./assets/icons/instagram.png"
-            class="img-fluid" alt="" />
+        <a href="https://www.instagram.com/lofcrypto/" class="card" target="_blank">
+          <img src="./assets/icons/instagram1.png" class="img-fluid img-top" alt="" />
+          <img src="./assets/icons/instagram.png" class="img-fluid" alt="" />
         </a>
       </li>
       <li>
-        <a href="https://discord.com/invite/T2fSbGbgWj" target="_blank"><img src="./assets/icons/discord.png"
-            class="img-fluid" alt="" />
+        <a href="https://discord.com/invite/T2fSbGbgWj" class="card" target="_blank">
+          <img src="./assets/icons/discord1.png" class="img-fluid img-top" alt="" />
+          <img src="./assets/icons/discord.png" class="img-fluid" alt="" />
         </a>
       </li>
       <li>
-        <a href="https://www.reddit.com/r/LOFcrypto/" target="_blank"><img src="./assets/icons/reddit.png"
-            class="img-fluid" alt="" />
+        <a href="https://www.reddit.com/r/LOFcrypto/" class="card" target="_blank">
+          <img src="./assets/icons/reddit1.png" class="img-fluid img-top" alt="" />
+          <img src="./assets/icons/reddit.png" class="img-fluid" alt="" />
         </a>
       </li>
     </ul>
@@ -229,7 +243,7 @@ rect{
   <!-- Social Links div End -->
 
   <!-- Hero Section Start -->
-  <section class="section-special">
+  <section class="section-special" id="hero">
     <div class="container-fluid hero-margin">
       <div class="row" >
         <div class="col-md-4 hero-heading-padding"data-aos="fade-right" >
@@ -244,25 +258,24 @@ rect{
             opportunities for investors, content creators and users.
             Welcome to the wonderful world of Lonelyfans!
           </p>
-          <button class="btn1">
-            <svg width="138px" height="60px" viewBox="0 0 180 60" class="border">
-              <!-- <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" /> -->
-              <rect x="0" y="0" width="177" height="54" rx="10"
-              fill="none" stroke="white" stroke-width="2" />
+          <button class="btn2">
+            <svg width="139px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,2" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+              
             </svg>
             <span>LOF platform</span>
           </button>
           <!-- <button type="button" class="btn btn-outline-primary hero-btn  me-3">
             LOF platform
           </button> -->
-          <button class="btn2">
-            <svg width="138px" height="60px" viewBox="0 0 180 60" class="border">
-              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <button class="btn2" style="margin-left:20px ;">
+            <svg width="139px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,2" class="bg-line" />
               <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
               
             </svg>
-            <span>LOF platform</span>
+            <span>Buy LOF</span>
           </button>
           <!-- <button type="button" class="btn btn-outline-primary hero-btn1">
             Buy LOF
@@ -279,7 +292,7 @@ rect{
   </section>
   <!-- Hero Section End -->
   <!-- What is Lof Section Start -->
-  <section class="section-special" id="mydiv">
+  <section class="section-special" id="whatlof">
     <div class="container-fluid ">
       <div class="row lof-section-margin">
         <div class="col-md-6" data-aos="fade-right">
@@ -305,7 +318,7 @@ rect{
   </section>
   <!-- What is Lof Section End -->
   <!-- Lof Plateform start -->
-  <section class="section-special">
+  <section class="section-special" id="platform">
     <div class="container-fluid">
       <div class="row">
 
@@ -437,6 +450,7 @@ rect{
   <!-- Lof Plateform 2nd Section end -->
   <!-- Tokenomics section start  -->
   <section class="token-padding " id="counter" >
+    <div id="token">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -679,7 +693,7 @@ rect{
           </ul>
         </div>
         <div class="col-md-5" data-aos="fade-left">
-          <img class="img-responsive" src="./assets/tokonomics/Graph 1.png" alt="graph" />
+          <img class="img-responsive shake-effect" src="./assets/tokonomics/Graph 1.png" alt="graph" />
         </div>
       </div>
     </div>
@@ -698,7 +712,7 @@ rect{
       </div>
       <div class="row">
         <div class="col-md-5" data-aos="fade-right">
-          <img class="img-responsive" src="./assets/tokonomics/Graph 2.png" alt="graph" />
+          <img class="img-responsive shake-effect" src="./assets/tokonomics/Graph 2.png" alt="graph" />
         </div>
         <div class="col-md-7 token-points" data-aos="fade-left">
           <ul>
@@ -839,11 +853,12 @@ rect{
         </div>
       </div>
     </div>
+    </div>
   </section>
   <!-- tokonomics section end -->
   <!-- Partner Section Start -->
   
-  <section style=" position:relative;" class="section-special">
+  <section style=" position:relative; z-index: 99999;" class="section-special" id="partners">
     
     <div class="container-fluid partner-padding-top">
       
@@ -1069,10 +1084,10 @@ rect{
     <button type="button" class="close" data-dismiss="modal" title="Close">
     <span class="glyphicon glyphicon-remove"></span></button>
     </div>
-    <div class="modal-body">
+    <div class="modal-body" >
     
      <!-- carousel body -->
-    <div id="myGallery1" class="carousel slide" data-interval="false">
+    <div id="myGallery1" class="carousel slide" data-interval="false" style="background-color: #211f24 ;">
     <div class="carousel-inner">
     
     <div class="item active">
@@ -1121,7 +1136,7 @@ rect{
     <div class="pull-left">
     
     </div>
-    <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+    
         </div>
         </div>
         </div></div>
@@ -1138,7 +1153,7 @@ rect{
     <div class="modal-body">
     
      <!-- carousel body -->
-    <div id="myGallery2" class="carousel slide" data-interval="false">
+    <div id="myGallery2" class="carousel slide" data-interval="false" style="background-color: #211f24 ;">
     <div class="carousel-inner ">
     
     <div class="item active ">
@@ -1188,7 +1203,6 @@ rect{
     <div class="pull-left">
     
     </div>
-    <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
         </div>
         </div>
         </div></div>
@@ -1205,7 +1219,7 @@ rect{
     <div class="modal-body">
     
      <!-- carousel body -->
-    <div id="myGallery3" class="carousel slide" data-interval="false">
+    <div id="myGallery3" class="carousel slide" data-interval="false" style="background-color: #211f24 ;">
     <div class="carousel-inner">
     
     <div class="item active">
@@ -1255,7 +1269,6 @@ rect{
     <div class="pull-left">
     
     </div>
-    <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
         </div>
         </div>
         </div></div>
@@ -1272,7 +1285,7 @@ rect{
     <div class="modal-body">
     
      <!-- carousel body -->
-    <div id="myGallery4" class="carousel slide" data-interval="false">
+    <div id="myGallery4" class="carousel slide" data-interval="false" style="background-color: #211f24;">
     <div class="carousel-inner">
     
     <div class="item active">
@@ -1322,7 +1335,7 @@ rect{
     <div class="pull-left">
     
     </div>
-    <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+   
         </div>
         </div>
         </div></div>
@@ -1339,8 +1352,8 @@ rect{
     <div class="modal-body">
     
      <!-- carousel body -->
-    <div id="myGallery5" class="carousel slide" data-interval="false">
-    <div class="carousel-inner">
+    <div id="myGallery5" class="carousel slide" data-interval="false" style="background-color: #211f24 ;">
+    <div class="carousel-inner" >
     
     <div class="item active">
     <img src="./assets/img/partners/tiffany1.png" alt="item1"  >
@@ -1389,7 +1402,6 @@ rect{
     <div class="pull-left">
     
     </div>
-    <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
         </div>
         </div>
         </div></div>
@@ -1398,7 +1410,7 @@ rect{
   <!-- partner section end -->
             
   <!-- Dashbored section start -->
-  <section class="dash-margin">
+  <section class="dash-margin" id="dashboard" style="margin-top: 200px;">
     <div class="container-fluid">
       <div class="row dashbored-padding">
         <div class="col-md-4 dash-pad" data-aos="fade-right">
@@ -1415,7 +1427,7 @@ rect{
             You may also use the reward to buy more LOF without the normal buying tax - and to start gaining even more reward by compounding interest.
           </p>
           <button type="button" class="btn btn-outline-primary hero-btn dash-button-mar">
-            Claim your reward
+           <a href="https://lonelyfans.io/rewards/" target="_blank"> Claim your reward</a> 
           </button>
         </div>
         <div class="col-md-8" data-aos="fade-left">
@@ -1426,7 +1438,7 @@ rect{
   </section>
   <!-- Dashbored section end -->
   <!--------- Roadmap section Start -------->
-  <section class="roadmap-padding" style="padding: 0px 80px 0px 80px;">
+  <section class="roadmap-padding" style="padding: 0px 80px 0px 80px;" id="roadmap">
     <div class="container-fluid roadmap-section-padding">
       <div class="row">
         <div class="col-md-12" style=" background-image: url(./assets/img/road-bg.png); background-repeat: no-repeat; background-size:70%; height: 80vh; background-position: center;">
@@ -1722,7 +1734,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
   </section>
   <!--------- Roadmap section End -------->
   <!-- White paper section start -->
-  <section class="section-special">
+  <section class="section-special" id="whitepaper">
     <div class="container-fluid whitepaper-padding-top">
       <div class="row">
         <div class="col-md-3 white-heading-padding" data-aos="fade-right">
@@ -1736,7 +1748,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
 
 
           <button type="button" class="btn btn-outline-primary hero-btn">
-            View Whitepaper
+           <a href="https://online.flippingbook.com/view/193305731/" target="_blank">View Whitepaper</a> 
           </button>
         </div>
         <div class="col-md-7" data-aos="fade-left">
@@ -1753,7 +1765,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1300px; margin-top: 200px;">
+    height: 1300px; margin-top: 200px;" id="team">
     <div class="container-fluid" >
       <div class="row">
         <div class="col-md-4"></div>
@@ -1792,7 +1804,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
   </section> 
   <!-- team and vision section end -->
   <!-- Mench store section start -->
-  <section class="section-special">
+  <section class="section-special" id="store">
     <div class="container-fluid mench-padding-top">
       <div class="row merch-mbl">
         <div class="col-md-6" data-aos="fade-right">
@@ -1812,7 +1824,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
           </p>
 
           <button type="button" class="btn btn-outline-primary hero-btn">
-            Shop now!
+           <a href="https://shop.lonelyfans.io/" target="_blank">Shop now!</a> 
           </button>
         </div>
 
@@ -1828,7 +1840,7 @@ This requires keeping very high standards, transparency, and trustworthiness in 
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 100px;
-    height:900px">
+    height:900px" id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 contct-txt " >

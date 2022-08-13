@@ -49,7 +49,7 @@ $(function () {
           setTimeout(function () {
               $this.data("isCounting", false);
               count($this);
-          }, 50);
+          }, 20);
       }
   }
 
