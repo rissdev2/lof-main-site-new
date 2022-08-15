@@ -12,6 +12,7 @@
 }
 html {
   scroll-behavior: smooth;
+
 }
 /* body css start */
 
@@ -29,6 +30,10 @@ body {
   width: 100%;
 }
 a {
+  text-decoration: none;
+  color: #fff !important;
+}
+a:hover{
   text-decoration: none;
   color: #fff !important;
 }
@@ -159,7 +164,7 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a:visited:hover {
   background: transparent !important;
-  color: #d8aaf8;
+  color: #d8aaf8 !important;
   list-style: none !important;
   text-decoration: none !important;
 }
@@ -1288,7 +1293,7 @@ Main Components
 /* partner section css start */
 
 .partner-padding-top {
-  padding-top: 300px;
+  margin-top: 300px;
 }
 
 #icons {
@@ -1834,6 +1839,7 @@ Main Components
   top: 30%;
 }
 .modal-content{
+  width: 30% !important;
   background: #121016 !important;
   padding: 10px 30px 20px 30px;
 }
@@ -1842,9 +1848,11 @@ padding: 0px !important ;
 }
 
 .set-pop{
-  top: 10% !important;
+  top: 8% !important;
 }
-
+.item img{
+  width: 100% !important;
+}
 
 /* scroll bar  */
 textarea::-webkit-scrollbar {
@@ -1881,7 +1889,7 @@ textarea::-webkit-scrollbar-thumb {
 /***************** pie graph shake effect *************/
 
 .shake-effect:hover {
-  animation: shake 0.5s;
+  animation: shake 2s;
   animation-iteration-count: infinite;
 }
 
@@ -1922,14 +1930,14 @@ textarea::-webkit-scrollbar-thumb {
 /************ Back to top button  *********/
 #top-button {
   display: inline-block;
-  background-color: #d8aaf8;
+  background-color: rgba(32, 31, 31, 0.322);
   width: 50px;
   height: 50px;
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 50px;
+  right: 50px;
   transition: background-color .3s, 
     opacity .5s, visibility .5s;
   opacity: 0;
@@ -1941,16 +1949,16 @@ textarea::-webkit-scrollbar-thumb {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 50px;
   color: #fff;
 }
 #top-button:hover {
   cursor: pointer;
-  background-color: #333;
+  background-color: #d8aaf8;
 }
 #top-button:active {
-  background-color: #555;
+  background-color: #d8aaf8;
 }
 #top-button.show {
   opacity: 1;
