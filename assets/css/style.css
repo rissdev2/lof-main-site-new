@@ -2056,10 +2056,10 @@ textarea::-webkit-scrollbar-thumb {
 .p-timeline-date{font-weight:600;font-size:20px;}
 .p-timeline-carmodel{margin-top: 5px;margin-bottom: 10px;}
 .p-timeline-block {
-  min-width:55px;
-  min-height:55px;
-  max-width:55px;
-  max-height:55px;
+  min-width:20px;
+  min-height:20px;
+  max-width:20px;
+  max-height:20px;
   border: solid 0px black;
   border-radius:50%;
   background-color:#d8aaf8;
@@ -2113,7 +2113,7 @@ textarea::-webkit-scrollbar-thumb {
   transition: all .5s ease-in-out;
 }
 .i-is-active.p-timeline-content h3, .i-is-active.p-timeline-content time{width:100%;}
-.i-is-active.p-timeline-content .timeline-content-card{width:40%;}
+.i-is-active.p-timeline-content .timeline-content-card{width:100%;}
 .i-is-active.p-timeline-content .timeline-content-image{width:59%;}
 .i-is-active.p-timeline-content .timeline-content-card, .i-is-active.p-timeline-content .timeline-content-image{float:left;}
 .i-is-active.p-timeline-content .timeline-content-image:after{clear:both;}
@@ -2125,7 +2125,7 @@ textarea::-webkit-scrollbar-thumb {
 .mini.i-is-active.p-timeline-content h3 {color:#d8aaf8;}
 .timeline-content-image img{width:100%; height:auto; max-width:100%;}
 .p-timeline-content time {font-size: 15px; line-height: 40px; font-style: italic; }
-.p-timeline-content p {font-size:14px; line-height:21px; padding-right:30px; font-weight:300;}
+.p-timeline-content p {font-size:20px; line-height:32px; padding-right:30px;    margin-top: 25px; font-weight:300;}
 .timeline-content-title{font-size:28px;}
 .close {
 position: absolute;
@@ -2194,4 +2194,9 @@ body{padding:0;}
 .timeline-title{line-height:1em; font-size:1.5em;}
 .timeline::-webkit-scrollbar {height:4px;}
 }
+.point-heading{
+  font-size: 75px;
+}
+
+
 /* roadmap2 css end */
