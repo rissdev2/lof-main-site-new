@@ -743,30 +743,28 @@ li {
 Main Components 
 
 -------------------------------- */
-.cd-horizontal-timeline {
+/* .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-.cd-horizontal-timeline::before {
+.cd-horizontal-timeline::before { */
   /* never visible - this is used in jQuery to check the current MQ */
-  content: "mobile";
+  /* content: "mobile";
   display: none;
 }
-.cd-horizontal-timeline.loaded {
+.cd-horizontal-timeline.loaded { */
   /* show the timeline after events position has been set (using JavaScript) */
-  opacity: 1;
+  /* opacity: 1;
 }
 .cd-horizontal-timeline .timeline {
   position: relative;
   height: 100px;
-  width: 90%;
   background: #121016;
-  /* //   max-width: 800px; */
   border-radius: 15px;
-
+  width: 90%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -778,9 +776,9 @@ Main Components
   overflow: hidden;
 }
 .cd-horizontal-timeline .events-wrapper::after,
-.cd-horizontal-timeline .events-wrapper::before {
+.cd-horizontal-timeline .events-wrapper::before { */
   /* these are used to create a shadow effect at the sides of the timeline */
-  content: "";
+  /* content: "";
   position: absolute;
   z-index: 2;
   top: 0;
@@ -788,39 +786,39 @@ Main Components
   width: 20px;
 }
 .cd-horizontal-timeline .events-wrapper::before {
-  left: 0;
+  left: 0; */
   /* //   background-image: -webkit-linear-gradient(
   //     left,
   //     #f8f8f8,
   //     rgba(248, 248, 248, 0)
   //   ); */
   /* //   background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0)); */
-}
+/* }
 .cd-horizontal-timeline .events-wrapper::after {
-  right: 0;
+  right: 0; */
   /* //   background-image: -webkit-linear-gradient(
   //     right,
   //     #f8f8f8,
   //     rgba(248, 248, 248, 0)
   //   );
   //   background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0)); */
-}
-.cd-horizontal-timeline .events {
+/* }
+.cd-horizontal-timeline .events { */
   /* this is the grey line/timeline */
-  position: absolute;
+  /* position: absolute;
   z-index: 1;
   left: 0;
   top: 49px;
-  height: 2px;
+  height: 2px; */
   /* width will be set using JavaScript */
-  background: rgb(134, 132, 132);
+  /* background: rgb(134, 132, 132);
   -webkit-transition: -webkit-transform 0.4s;
   -moz-transition: -moz-transform 0.4s;
   transition: transform 0.4s;
-}
-.cd-horizontal-timeline .filling-line {
+} */
+/* .cd-horizontal-timeline .filling-line { */
   /* this is used to create the green line filling the timeline */
-  position: absolute;
+  /* position: absolute;
   z-index: 1;
   left: 0;
   top: 0;
@@ -850,18 +848,18 @@ Main Components
   font-size: 1.4rem;
   padding-bottom: 15px;
   color: #ffffff;
-  font-family: "Hind Vadodara", sans-serif;
+  font-family: "Hind Vadodara", sans-serif; */
 
   /* fix bug on Safari - text flickering while timeline translates */
-  -webkit-transform: translateZ(0);
+  /* -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   transform: translateZ(0);
 }
-.cd-horizontal-timeline .events a::after {
+.cd-horizontal-timeline .events a::after { */
   /* this is used to create the event spot */
-  content: "";
+  /* content: "";
   position: absolute;
   left: 50%;
   right: auto;
@@ -873,10 +871,10 @@ Main Components
   bottom: -5px;
   height: 12px;
   width: 12px;
-  border-radius: 50%;
+  border-radius: 50%; */
   /* //   border: 2px solid #dfdfdf; */
   /* //   background-color: #f8f8f8; */
-  -webkit-transition: background-color 0.3s, border-color 0.3s;
+  /* -webkit-transition: background-color 0.3s, border-color 0.3s;
   -moz-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
 }
@@ -898,15 +896,15 @@ Main Components
   .cd-horizontal-timeline {
     margin: 10em auto;
   }
-  .cd-horizontal-timeline::before {
+  .cd-horizontal-timeline::before { */
     /* never visible - this is used in jQuery to check the current MQ */
-    content: "desktop";
+    /* content: "desktop";
   }
 }
 
-.cd-timeline-navigation a {
+.cd-timeline-navigation a { */
   /* these are the left/right arrows to navigate the timeline */
-  position: absolute;
+  /* position: absolute;
   z-index: 1;
   top: 50%;
   bottom: auto;
@@ -918,9 +916,9 @@ Main Components
   height: 34px;
   width: 34px;
   border-radius: 50%;
-  border: 2px solid #dfdfdf;
+  border: 2px solid #dfdfdf; */
   /* replace text with an icon */
-  overflow: hidden;
+  /* overflow: hidden;
   color: transparent;
   text-indent: 100%;
   white-space: nowrap;
@@ -928,9 +926,9 @@ Main Components
   -moz-transition: border-color 0.3s;
   transition: border-color 0.3s;
 }
-.cd-timeline-navigation a::after {
+.cd-timeline-navigation a::after { */
   /* arrow icon */
-  content: "";
+  /* content: "";
   position: absolute;
   height: 16px;
   width: 16px;
@@ -998,9 +996,9 @@ Main Components
   -moz-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
-.cd-horizontal-timeline .events-content li.selected {
+.cd-horizontal-timeline .events-content li.selected { */
   /* visible event content */
-  position: relative;
+  /* position: relative;
   z-index: 2;
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1027,9 +1025,9 @@ Main Components
   -moz-animation-direction: reverse;
   animation-direction: reverse;
 }
-.cd-horizontal-timeline .events-content li > * {
+.cd-horizontal-timeline .events-content li > * { */
   /* max-width: 800px; */
-  margin: 0 auto;
+  /* margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
@@ -1142,7 +1140,7 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
-}
+} */
 
 /* roadmap css  End*/
 /* White paper start */
@@ -1953,19 +1951,44 @@ textarea::-webkit-scrollbar-thumb {
   line-height: 50px;
   color: #fff;
 }
-#top-button:hover {
+/* #top-button:hover {
   cursor: pointer;
   background-color: #d8aaf8;
 }
 #top-button:active {
   background-color: #d8aaf8;
-}
+} */
 #top-button.show {
   opacity: 1;
   visibility: visible;
 }
 
-
+.top-btn:hover {
+  transition: 1s ease-in-out;
+  background: transparent;
+}
+.top-btn {
+  display: inline-block;
+  background-color: rgba(32, 31, 31, 0.322);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  
+cursor: pointer;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.103);
+border-radius: 0px;
+outline: none;
+transition: 1s ease-in-out;
+margin-top: 50px;   
+}
+.top-btn:hover svg {
+  stroke-dashoffset: -480;
+}
 
 
 
@@ -2004,13 +2027,15 @@ textarea::-webkit-scrollbar-thumb {
 .btn-btn-oranje {background-color: #d8aaf8; color: white;}  
 .timeline-wrap{position:relative; padding:0 50px;}
 .timeline{
+ 
+  
   overflow-x:auto;
   -webkit-overflow-scrolling: touch;
   background-repeat: repeat-x;
-  background-size: 10px 7px;
+  background-size: 10px 3px;
   background-position: center top 55%;
   /* background-image: -webkit-gradient(linear,left top,right top,color-stop(66%,#000),color-stop(0,transparent)); */
-  background-image: linear-gradient(179deg,#d8aaf8 66%,transparent 0);
+  background-image: linear-gradient(179deg,#fff 66%,transparent 0);
   padding: 50px 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2024,6 +2049,9 @@ textarea::-webkit-scrollbar-thumb {
   transition: height .2s ease-out;
   transition: height .2s ease-out;
   transition: height .2s ease-out;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: -145px !important;
 }
 .timeline-title, .timeline-content-title{font-weight:600;}
 .timeline-item{
@@ -2054,7 +2082,8 @@ textarea::-webkit-scrollbar-thumb {
 .bmw .p-timeline-block, .mini .p-timeline-block, .mini:hover .p-timeline-block, .bmw:hover .p-timeline-block {transition:background-color 1s ease;}
 .p-timeline-date, .p-timeline-carmodel, .p-timeline-block{width:100%;}
 .p-timeline-date{font-weight:600;font-size:20px;}
-.p-timeline-carmodel{margin-top: 5px;margin-bottom: 10px;}
+.p-timeline-carmodel{margin-top: 5px;     margin-left: -15px;
+  margin-bottom: 10px;}
 .p-timeline-block {
   min-width:20px;
   min-height:20px;
@@ -2064,7 +2093,7 @@ textarea::-webkit-scrollbar-thumb {
   border-radius:50%;
   background-color:#d8aaf8;
   position:relative;
-  top:3px;
+  top:5px;
   left:48px;
   margin-bottom:20px;
 }
@@ -2197,6 +2226,39 @@ body{padding:0;}
 .point-heading{
   font-size: 75px;
 }
+.timeline-bg{
+  background: #121016;
+  border-radius: 15px;
+  height: 100px;
+  margin-top: 50px;
+}
+.check-svg {
+ left: 30px;
+ top: -13px;
+  height: 150px;
+  width: 150px;
+}
+.text-check{
+display: flex;
+}
+
+.check {
+  transfrom: scale(2);
+  stroke-width: 4px;
+  stroke-dasharray: 50px, 50px;
+  stroke-dashoffset: 0px;
+  animation: checkmark 2s ease-in-out 0.7s backwards infinite;
+
+}
 
 
+@-webkit-keyframes checkmark {
+    0% {
+        stroke-dashoffset: 50px
+    }
+
+    100% {
+        stroke-dashoffset: 0px
+    }
+}
 /* roadmap2 css end */
