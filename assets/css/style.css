@@ -605,6 +605,11 @@ nav ul li ul li a {
   background-color: #121016;
   padding: 30px;
 }
+.token-box1 {
+  border-radius: 5px;
+  background-color: #121016;
+  padding: 30px;
+}
 .token-bar-content {
   padding: 30px 0px 0px 0px;
 }
@@ -1590,6 +1595,13 @@ Main Components
   .copy-right {
     font-size: 10px;
   }
+  .modal-content{
+    width: 60% !important;
+  }
+  .modal.in .modal-dialog{
+    display: flex !important ;
+    justify-content: center !important;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .footer-list .footer-li .footer-links {
@@ -1865,7 +1877,11 @@ textarea::-webkit-scrollbar-thumb {
  }
 
 
-
+ .custom-sty{
+  width: 13% !important;
+  background: #121016 !important;
+  padding: 10px 30px 20px 30px;
+ }
 
 
 
@@ -1878,7 +1894,9 @@ textarea::-webkit-scrollbar-thumb {
 .partner-padding-top {
   padding-top: 100px;
 }
-
+.modal-content{
+  width: 70% !important;
+}
 
  }
 
@@ -2232,33 +2250,15 @@ body{padding:0;}
   height: 100px;
   margin-top: 50px;
 }
-.check-svg {
- left: 30px;
- top: -13px;
-  height: 150px;
-  width: 150px;
-}
+
 .text-check{
 display: flex;
 }
 
-.check {
-  transfrom: scale(2);
-  stroke-width: 4px;
-  stroke-dasharray: 50px, 50px;
-  stroke-dashoffset: 0px;
-  animation: checkmark 2s ease-in-out 0.7s backwards infinite;
-
-}
-
-
-@-webkit-keyframes checkmark {
-    0% {
-        stroke-dashoffset: 50px
-    }
-
-    100% {
-        stroke-dashoffset: 0px
-    }
+.check{
+  width: 50px; 
+  height: 50px;
+  margin-top: 37px;
+  margin-left: 20px;
 }
 /* roadmap2 css end */
