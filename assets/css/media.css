@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden !important;
+  }
   .hero-heading-padding {
     padding: 70px 0px 10px 15px !important;
 }
@@ -66,8 +69,8 @@
 .token-sub {
   font-size: 20px !important;
 }
-.token-box{
-  margin-bottom: 20px !important;
+.token-box1{
+  margin-bottom: 70px !important;
 }
 .token-heading-2{
   font-size: 27px !important;
@@ -85,7 +88,7 @@
   padding: 22px 54px 12px 24px !important;
 }
 .dashbored-padding{
-  padding: 0px 0px 0px 0px !important;
+  margin: 0px 0px 0px 0px !important;
 }
 .dash-pad {
   padding: 0px 16px 0px 16px !important;
@@ -210,6 +213,20 @@ padding: 10px !important;
 }
 .feature-margin{
   margin-top: 100px !important;
+}
+.point-heading {
+font-size: 40px !important ;
+}
+.p-timeline-content p {
+line-height: 20px !important ;
+}
+#top-button{
+  bottom: 65px !important;
+  right: 15px !important;
+}
+.top-btn{
+  bottom: 65px !important;
+  right: 15px !important;
 }
 }
 
