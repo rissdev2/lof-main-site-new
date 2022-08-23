@@ -1966,26 +1966,27 @@ textarea::-webkit-scrollbar-thumb {
   font-weight: normal;
   font-style: normal;
   font-size: 2.5em;
-  line-height: 50px;
+  line-height: 0px;
   color: #fff;
+  position: relative;
+  top: -33px;
 }
-/* #top-button:hover {
-  cursor: pointer;
-  background-color: #d8aaf8;
-}
-#top-button:active {
-  background-color: #d8aaf8;
-} */
+
 #top-button.show {
   opacity: 1;
   visibility: visible;
 }
-
+.top-btn.show{
+  opacity: 1;
+  visibility: visible;
+}
 .top-btn:hover {
   transition: 1s ease-in-out;
   background: transparent;
 }
 .top-btn {
+
+  
   display: inline-block;
   background-color: rgba(32, 31, 31, 0.322);
   width: 50px;
