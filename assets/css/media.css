@@ -420,9 +420,12 @@ padding: 0px !important;
 .slider-div p{
   padding-right: 0px !important;
 }
+.slider-container .slide-content .txt-wrapper .subtitle{
+  line-height: 80px !important;
+}
 .dashbored-img{
-  width: 765px !important;
-  height: 442px !important;
+  width: 700px !important;
+  height: 404px !important;
   margin-left: -90px !important;
   margin-top: 120px !important;
 }
@@ -442,8 +445,9 @@ padding: 0px !important;
   margin-top: 80px;
 }
 .whitepaper-heading {
-  font-size: 36px !important;
+  font-size: 30px !important;
   line-height: 50px !important;
+  
 }
 .br-hide{
   display: none;
@@ -453,7 +457,7 @@ padding: 0px !important;
   line-height: 30px !important;
 }
 .team-heading {
-font-size: 53px !important;
+font-size: 45px !important;
 }
 .mench-img{
   width: 780px !important;
@@ -465,6 +469,10 @@ font-size: 53px !important;
 }
 .set-resp{
   width: 67% !important; 
+}
+.contact-pad{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
 }
 }
 @media only screen 
@@ -504,6 +512,9 @@ font-size: 53px !important;
   width: 815px !important;
   height: 541PX !important;
 }
+.slider-container .slide-content .txt-wrapper .subtitle{
+  line-height: 80px !important;
+}
 .slider-div p{
   padding-right: 0px !important;
 }
@@ -519,8 +530,9 @@ font-size: 53px !important;
   margin-top: 100px !important;
 }
 .whitepaper-heading{
-  font-size: 66px !important;
+  font-size: 40px !important;
   line-height: 84px !important;
+  line-height: 70px !important;
 }
 .whitepaper-img {
   width: 930px !important;
@@ -543,13 +555,32 @@ font-size: 53px !important;
     font-size: 79px !important ;
     line-height: 97px !important;
   }
+  .contact-pad{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
 }
 @media only screen 
+  and (min-device-width: 1400px) 
+  and (max-device-width: 1599px){
+    .slider-container .slide-content .txt-wrapper .subtitle{
+      line-height: 80px !important;
+    }
+    .contact-pad{
+      padding-left: 100px !important;
+      padding-right: 100px !important;
+    }
+  }
+@media only screen 
   and (min-device-width: 1600px) 
-  and (max-device-width: 1800px){
+  and (max-device-width: 1850px){
     .whylof-img{
       width: 990px !important;
       height: 613px !important;
+    }
+    .whitepaper-heading {
+      line-height: 70px !important;
+      font-size: 60px !important;
     }
   }
 

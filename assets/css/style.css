@@ -1183,7 +1183,7 @@ Main Components
   font-family: allround-Font !important;
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 77px;
   line-height: 96px;
 }
 .team-paragraph {
@@ -1325,8 +1325,8 @@ Main Components
 }
 .nav-wrapper .nav-up,
 .nav-wrapper .nav-down {
-  width: 2rem;
-  height: 3rem;
+  width: 3rem;
+  height: 4rem;
   cursor: pointer;
 }
 .nav-wrapper .nav-up svg,
@@ -2210,8 +2210,8 @@ background-color: #333;
 /* laptop resolutions*/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
 .timeline{background-position: center top 60%;}
-.i-is-active.p-timeline-content .timeline-content-card{width:48%;}
-.i-is-active.p-timeline-content .timeline-content-image{width:50%;}
+.i-is-active.p-timeline-content .timeline-content-card{width:98%%;}
+.i-is-active.p-timeline-content .timeline-content-image{width:98%;}
 }
 /*Tablet - Landscape*/
 @media screen and (max-width: 1199px){
