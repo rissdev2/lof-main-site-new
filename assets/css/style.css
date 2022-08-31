@@ -12,7 +12,7 @@
 }
 html {
   scroll-behavior: smooth;
-
+  
 }
 /* body css start */
 
@@ -1307,8 +1307,9 @@ Main Components
   position: absolute;
   height: 100%;
   width: 12rem;
+
   /* padding: 0 4rem; */
-  padding-right: 125px;
+  padding-right: 51%;
   top: 0;
   right: 0;
   text-align: center;
@@ -1319,6 +1320,11 @@ Main Components
   display: inline-block;
   top: 50%;
   transform: translateY(-50%);
+}
+.nav-arrows{
+  background: #171718;
+  padding: 8px;
+  border: 1px solid;
 }
 .nav-wrapper .nav-up {
   opacity: 0;
@@ -1337,7 +1343,7 @@ Main Components
 }
 .nav-wrapper .nav-up svg:hover,
 .nav-wrapper .nav-down svg:hover {
-  fill: black;
+  fill: #fff;
 }
 .nav-wrapper .nav-up {
   transform: rotate(180deg);

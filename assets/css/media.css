@@ -632,7 +632,12 @@ font-size: 45px !important;
       display:block !important;
   }
   }
-
+  @media only screen 
+  and (min-device-width: 2500px) {
+.col-xxl-6{
+  width: 50% !important;
+}
+  }
 
 
 
