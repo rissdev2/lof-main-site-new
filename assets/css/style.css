@@ -398,6 +398,9 @@ nav ul li ul li a {
 /* lof section 1 end  */
 
 /* lof plateform section 2 css start */
+.feat-head{
+  display: flex;
+}
 .slider-div h2 {
   font-family: "Hind Vadodara", sans-serif;
   font-style: normal;
@@ -1905,9 +1908,11 @@ textarea::-webkit-scrollbar-thumb {
   padding-top: 100px;
 }
 .modal-content{
-  width: 70% !important;
+  width: 90% !important;
 }
-
+.set-pop {
+  top: 20% !important;
+}
  }
 
 
