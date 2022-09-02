@@ -51,6 +51,7 @@
 .lofplatform-img-2{
   width: 330px!important;
   height: 220px!important;
+  margin-top: 100px !important;
 }
 .lof-platform2-mbl{
   display: flex;
@@ -188,8 +189,12 @@ height: 1620px !important;
 .slider-container .slide-content.txt{
 padding: 10px !important;
 }
+.feat-head{
+  justify-content: center;
+}
 .slider-div p{
-  padding-right: 50px !important;
+  padding-left: 18px !important;
+  padding-right: 0px !important;
 }
 .owl-theme .owl-nav.disabled + .owl-dots{
   margin-right: 30px !important;
