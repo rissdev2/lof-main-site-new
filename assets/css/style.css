@@ -100,7 +100,7 @@ button:focus {
 .navigation {
   height: 70px;
   /* background: linear-gradient(45deg, #4199fe, #74b4fe); */
-  opacity: 80%;
+  opacity: 100%;
   background: black !important;
   border: none !important;
   position: fixed;
@@ -225,7 +225,7 @@ nav ul li ul li a {
     position: static;
   }
   .nav-list {
-    opacity: 80%;
+    opacity: 93%;
     background: black !important;
     border: none !important;
   }
@@ -420,7 +420,18 @@ nav ul li ul li a {
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-right: 150px !important;
 }
-
+@media only screen and (max-width: 600px) {
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-right: 0px !important;
+  }
+}
+@media only screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1259px){
+    .owl-theme .owl-nav.disabled + .owl-dots {
+      margin-right: 0px !important;
+    }
+  }
 /* lof plateform section 2 css end */
 /* tokenomics section css  start*/
 .fillbar {
@@ -555,6 +566,7 @@ nav ul li ul li a {
   padding: 22px 24px 34px 24px;
   margin-top: -10px;
   order: 2;
+  color: #fff;
   background: #121016;
 }
 #faqs .qa-pairs dl.active .faq-toggle {
@@ -1310,9 +1322,9 @@ Main Components
   position: absolute;
   height: 100%;
   width: 12rem;
-
-  /* padding: 0 4rem; */
-  padding-right: 51%;
+ 
+  padding: 0 4rem;
+  /* padding-right: 51%; */
   top: 0;
   right: 0;
   text-align: center;
@@ -1327,7 +1339,8 @@ Main Components
 .nav-arrows{
   background: #171718;
   padding: 8px;
-  border: 1px solid;
+  border: 1px solid #d8aaf8;
+ 
 }
 .nav-wrapper .nav-up {
   opacity: 0;
@@ -1340,13 +1353,13 @@ Main Components
 }
 .nav-wrapper .nav-up svg,
 .nav-wrapper .nav-down svg {
-  fill: #fff;
+  fill: #d8aaf8;
   width: 100%;
   max-height: 100%;
 }
 .nav-wrapper .nav-up svg:hover,
 .nav-wrapper .nav-down svg:hover {
-  fill: #fff;
+  fill: #d8aaf8;
 }
 .nav-wrapper .nav-up {
   transform: rotate(180deg);
@@ -1356,7 +1369,7 @@ Main Components
   height: 0.1rem;
   background: black;
   margin: 1rem 0;
-  background: #fff;
+  background: #d8aaf8;
 }
 
 .slider-content {
@@ -1616,13 +1629,14 @@ Main Components
     justify-content: center !important;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 650px) and (max-device-width: 1024px) {
   .footer-list .footer-li .footer-links {
     color: white;
     font-family: "Hind Vadodara", sans-serif;
     padding: 8px;
     font-weight: 500;
   }
+
 }
 /* Media querys end  */
 /* Footer css end */
@@ -1914,8 +1928,20 @@ textarea::-webkit-scrollbar-thumb {
   top: 20% !important;
 }
  }
-
-
+@media only screen 
+  and (min-device-width: 610px) 
+  and (max-device-width: 1024px){
+    .modal-content{
+      width: 80% !important;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1259px){
+    .modal-content{
+      width: 80% !important;
+    }
+  }
 
 /***************** pie graph shake effect *************/
 

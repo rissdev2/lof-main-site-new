@@ -19,12 +19,12 @@
   font-size: 19px !important;
 }
 .hero-img{
-  width: 330px!important;
-    height: 239px !important;
+  width: 100%!important;
+    height: auto !important;
 }
 .whylof-img{
-  width: 330px!important;
-    height: 203px !important;
+  width: 100%!important;
+    height: auto !important;
 }
 .lof-plateform-heading-padding{
   padding: 0px 16px 0px 16px !important;
@@ -45,12 +45,12 @@
   width: 100% !important;
 }
 .lofplateform-img{
-  width: 330px!important;
-  height: 215px!important;
+  width: 100% !important;
+  height: auto !important;
 }
 .lofplatform-img-2{
-  width: 330px!important;
-  height: 220px!important;
+  width:100% !important;
+  height: auto !important;
   margin-top: 100px !important;
 }
 .lof-platform2-mbl{
@@ -95,8 +95,8 @@
   padding: 0px 16px 0px 16px !important;
 }
 .dashbored-img{
-  width: 330px!important;
-    height: 234px !important;
+  width: 100%!important;
+    height: auto !important;
     margin-left: 0px !important;
 }
 .roadmap-padding{
@@ -111,8 +111,8 @@
  width: 100% !important; 
 }
 .whitepaper-img{
-  width: 330px!important;
-    height: 234px !important;
+  width: 100%!important;
+    height: auto !important;
 }
 .mench-heading{
   width: 100% !important;
@@ -123,8 +123,8 @@
   width: 100% !important;
 }
 .mench-img{
-  width: 330px!important;
-    height: 234px !important;
+  width: 100% !important;
+    height: auto !important;
 }
 .mench-padding{
   padding-left: 15px !important;
@@ -181,7 +181,7 @@ height: 1620px !important;
   font-size: 50px !important;
 } 
 .slider-container .slide-content .txt-wrapper span.copy{
-  font-size: 1.5rem !important;
+  font-size: 3.5rem !important;
 }
 .slider-container .slide-content .txt-wrapper .subtitle{
   font-size: 2rem !important;
@@ -189,9 +189,8 @@ height: 1620px !important;
 .slider-container .slide-content.txt{
 padding: 10px !important;
 }
-.feat-head{
-  justify-content: center;
-}
+
+
 .slider-div p{
   padding-left: 18px !important;
   padding-right: 0px !important;
@@ -252,7 +251,7 @@ padding: 0px !important;
 
 
 @media only screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 610px) 
   and (max-device-width: 1024px){
     .hero-heading-padding {
       padding: 81px 0px 10px 31px !important;
@@ -261,7 +260,7 @@ padding: 0px !important;
       font-size: 75px !important;
     }  
     .hero-paragrah{
-      width: 150% !important;
+      width: 90% !important;
       font-size: 18px !important;
       line-height: 25px !important;
     }
@@ -273,8 +272,8 @@ padding: 0px !important;
       font-size: 20px !important;
     }
     .hero-img{
-      width: 730px !important;
-      height: 529px !important;
+      width: 100% !important;
+      height: auto !important;
     }
     .lof-plateform-paragraph {
       width: 100% !important;
@@ -293,33 +292,35 @@ padding: 0px !important;
       padding: 0px 16px 0px 16px !important;
     }
     .whylof-img{
-      width: 730px !important;
+      width: 100% !important;
+      height: auto !important;
     }
     .lofplateform-img{
-      width: 730px !important;
-      height: 475px !important;
+      width: 100% !important;
+      height: auto !important;
     }
     .lof-platform2-mbl{
       display: flex;
       flex-direction: column-reverse;
     }
     .lofplatform-img-2{
-      width: 730px !important;
+      width: 100% !important;
+      height: auto !important;
     }
     .token-heading{
       font-size: 100px !important;
     }
     .dashbored-img{
-      width: 700px !important;
-      height: 427px !important;
+      width: 100% !important;
+      height: auto !important;
       margin-left: 0px !important;
     }
     .whitepaper-paragrph{
      width: 100% !important; 
     }
     .whitepaper-img{
-      width: 730px !important;
-      height: 523PX !important;
+      width: 100% !important;
+      height: auto !important;
     }
     .team-sec{
       background: url() !important;
@@ -328,8 +329,8 @@ padding: 0px !important;
      height: 1620px !important;
      }
      .mench-img{
-      width: 730px !important;
-      height: 518px !important;
+      width: 100% !important;
+      height: auto !important;
      }
      .mench-heading{
       width: 100% !important;
@@ -363,6 +364,7 @@ padding: 0px !important;
     .slider-container .slide-content.txt{
       padding: 10px !important;
       }
+     
 }
 @media only screen 
   and (min-device-width: 1025px) 
@@ -479,7 +481,7 @@ font-size: 45px !important;
 }
 .mench-heading{
   font-size: 44px !important;
-  line-height: 0px !important;
+  line-height: 60px !important;
 }
 .set-resp{
   width: 67% !important; 
@@ -487,6 +489,9 @@ font-size: 45px !important;
 .contact-pad{
   padding-left: 100px !important;
   padding-right: 100px !important;
+}
+.section-special {
+  height: 550px !important;
 }
 }
 @media only screen 
@@ -554,7 +559,7 @@ font-size: 45px !important;
   margin-top: 142px !important;
 }
 .team-heading{
-  font-size:59px !important ;
+  font-size:57px !important ;
 }
 .team-sec{
   background-position: bottom !important;
@@ -641,6 +646,39 @@ font-size: 45px !important;
   and (min-device-width: 2500px) {
 .col-xxl-6{
   width: 50% !important;
+}
+.navigation{
+  display: flex !important;
+  justify-content: center;
+}
+#hero{
+  display: none !important;
+}
+.hero-4k{
+  display: block !important;
+  margin-top:200px ;
+}
+.content-4k{
+display: flex;
+align-items: center;
+}
+#whatlof{
+  display: none !important;
+}
+.cont-4k{
+  width: 2000px !important;
+}
+#lof-plt{
+  display: none !important;
+}
+.tok-non{
+  display: none !important;
+}
+.tokn-4k{
+  display: block !important;
+}
+.dash-non{
+  display: none !important;
 }
   }
 
