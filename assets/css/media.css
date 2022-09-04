@@ -6,7 +6,7 @@
     padding: 70px 0px 10px 15px !important;
 }
 .white-heading-padding {
-  padding: 70px 0px 10px 15px !important;
+  padding: 0px 0px 10px 15px !important;
 }
 .main-heading{
   font-size: 57px !important;
@@ -239,13 +239,25 @@ nav{
 padding: 0px !important;
 }
 .cntct-mbl{
-  height: 890px !important;
+  height: 950px !important;
 }
 .partner-padding-top{
   margin-top: 0px !important;
 }
 .mench-padding {
   margin-top: 260px !important;
+}
+.partn-non{
+  display: none;
+}
+.partn-mbl{
+  display: block !important;
+}
+.team-sec{
+  margin-top: 30px !important;
+}
+.roadmap-section-padding{
+  margin-top: 100px !important;
 }
 }
 
