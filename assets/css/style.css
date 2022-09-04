@@ -1587,6 +1587,81 @@ Main Components
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+/* partner Sec Mbl css Start */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+  line-height: 0 !important;
+font-size: 25px !important;
+color: #fff !important;
+box-shadow: 0px 0px 15px #000000 !important;
+}
+ .copy {
+  position: relative !important;
+ text-align: left;
+  display: block !important;
+  font-size: 2rem !important;
+  color: #d8aaf8 !important;
+  line-height: 1 !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+  font-family: "Smooch", cursive !important;
+}
+.subtitle h2 {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 0rem;
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+  font-family: allround-Font;
+}
+.excerpt {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+ text-align: left;
+  line-height: 1.4;
+}
+/* partner Sec Mbl css End */
+
+
+
+
+
+
+
 /* partner section css end */
 /* Footer css Start */
 .fotter-div {
