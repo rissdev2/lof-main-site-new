@@ -2359,8 +2359,9 @@ body{padding:0;}
 .timeline::-webkit-scrollbar {height:4px;}
 }
 .point-heading{
-  font-size: 75px;
+  font-size: 65px;
 }
+
 .timeline-bg{
   background: #121016;
   border-radius: 15px;
@@ -2378,4 +2379,24 @@ display: flex;
   margin-top: 37px;
   margin-left: 20px;
 }
+
+
+
+.map-container{
+  margin-top: 70px;
+}
+.map-point-sm{
+  background-color: transparent;
+  border: none;
+}
+
+.hide {
+  display: none !important;
+} 
+.link{
+  font-size: 18px;
+  font-family: "Hind Vadodara", sans-serif;
+
+}
+
 /* roadmap2 css end */
