@@ -98,6 +98,7 @@
   width: 100%!important;
     height: auto !important;
     margin-left: 0px !important;
+    margin-top: 70px !important;
 }
 .roadmap-padding{
   padding: 0px 0px 0px 0px !important;
@@ -125,6 +126,7 @@
 .mench-img{
   width: 100% !important;
     height: auto !important;
+    margin-top: 70px !important;
 }
 .mench-padding{
   padding-left: 15px !important;
@@ -175,7 +177,7 @@ height: 1620px !important;
   margin-top: 100px !important;
 }
 .br-hide{
-  display: none;
+  display: none !important;
 }
 .contct-txt > h2{
   font-size: 50px !important;
@@ -259,11 +261,204 @@ padding: 0px !important;
 .roadmap-section-padding{
   margin-top: 100px !important;
 }
+.brand{
+  margin-left: 20px !important;
 }
-
+.point-heading {
+  font-size: 30px !important;
+}
+.mbl-set{
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+.chart-mbl{
+  margin-top: 70px !important;
+}
+#faqs .qa-pairs dt{
+  font-size: 24px !important;
+}
+.dash-pad {
+  padding-top: 0px !important;
+}
+.dash-margin {
+  margin-top: 80px !important;
+} 
+.btn3{
+  margin-top: 20px !important;
+}
+.btn2{
+  margin-top: 20px !important;
+}
+}
 
 @media only screen 
   and (min-device-width: 610px) 
+  and (max-device-width: 730px){
+    .sub-heading{
+      width: 95% !important;
+    }
+    .dashbored-padding {
+      margin: 0px 0px 0px 0px !important;
+  }
+  .dash-pad {
+    padding-top: 0px !important;
+  }
+  .point-heading {
+    font-size: 30px !important;
+}
+.brand{
+  margin-left: 20px !important;
+}
+.white-heading-padding {
+  padding: 120px 0px 10px 32px !important;
+}
+.whitepaper-paragrph {
+  width: 90% !important;
+}
+.hero-heading-padding {
+  padding: 81px 0px 10px 31px !important;
+}   
+.main-heading{
+  font-size: 75px !important;
+}  
+.hero-paragrah{
+  width: 86% !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+}
+.hero-btns{
+  width: 101% !important;
+}
+.sub-heading{
+
+  font-size: 20px !important;
+}
+.hero-img{
+  width: 100% !important;
+  height: auto !important;
+}
+.lof-plateform-paragraph {
+  width: 100% !important;
+}
+.lof-plateform-heading{
+  width: 100% !important;
+}
+.lof-platfrom-heading-margin {
+  width: 100% !important;
+}
+.lof-section-margin{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.lof-plateform-heading-padding{
+  padding: 0px 16px 0px 16px !important;
+}
+.whylof-img{
+  width: 100% !important;
+  height: auto !important;
+}
+.lofplateform-img{
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 50px !important;
+}
+.lof-platform2-mbl{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.br-hide{
+  display: none !important;
+}
+.dash-margin {
+  margin-top: 80px !important;
+}
+.lofplatform-img-2{
+  width: 100% !important;
+  height: auto !important;
+}
+.token-heading{
+  font-size: 100px !important;
+}
+.dashbored-img{
+  width: 100% !important;
+  height: auto !important;
+  margin-left: 0px !important;
+  margin-top: 70px !important;
+}
+
+.whitepaper-img{
+  width: 100% !important;
+  height: auto !important;
+}
+.team-sec{
+  background: url() !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+ height: 1620px !important;
+ }
+ .mench-img{
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 70px !important;
+ }
+ .mench-heading{
+  width: 100% !important;
+  
+}
+.mench-paragraph{
+  width: 100% !important;
+}
+.merch-mbl{
+  display: flex;
+  flex-direction: column-reverse;
+}
+ .team-img{
+  display: block !important;
+}
+.field{
+  margin-bottom: 20px;
+}
+.text-area{
+  width: 68% !important;
+}
+.section-special{
+  height: auto !important;
+  /* margin-top: 100px !important; */
+  margin-bottom: 50px !important;
+}
+.links-mbl{
+  display: flex !important;
+  justify-content: center !important;
+}
+.slider-container .slide-content.txt{
+  padding: 10px !important;
+  }
+  .btn2{
+    margin-top: 20px !important;
+  }
+  .btn3{
+    margin-top: 20px !important;
+  }
+  .token-bar-content {
+    padding: 15px 0px 0px 0px !important;
+}
+.mbl-set{
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+.chart-mbl{
+  margin-top: 70px !important;
+}
+#faqs .qa-pairs dt{
+  font-size: 24px !important;
+}
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 740px) 
   and (max-device-width: 1024px){
     .hero-heading-padding {
       padding: 81px 0px 10px 31px !important;
@@ -280,7 +475,7 @@ padding: 0px !important;
       width: 101% !important;
     }
     .sub-heading{
-      width: 153% !important;
+     width: 135% !important;
       font-size: 20px !important;
     }
     .hero-img{
@@ -478,7 +673,7 @@ padding: 0px !important;
   
 }
 .br-hide{
-  display: none;
+  display: none !important;
 }
 .whitepaper-paragrph{
   width: 200% !important;

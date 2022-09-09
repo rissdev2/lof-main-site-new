@@ -1339,7 +1339,7 @@ Main Components
 .nav-arrows{
   background: #171718;
   padding: 8px;
-  border: 1px solid #d8aaf8;
+  border: 1px solid rgba(255, 255, 255, 0.253);;
  
 }
 .nav-wrapper .nav-up {
@@ -1347,8 +1347,8 @@ Main Components
 }
 .nav-wrapper .nav-up,
 .nav-wrapper .nav-down {
-  width: 3rem;
-  height: 4rem;
+  width: 2rem;
+  height: 3rem;
   cursor: pointer;
 }
 .nav-wrapper .nav-up svg,
@@ -2359,7 +2359,7 @@ body{padding:0;}
 .timeline::-webkit-scrollbar {height:4px;}
 }
 .point-heading{
-  font-size: 65px;
+  font-size: 40px;
 }
 
 .timeline-bg{
